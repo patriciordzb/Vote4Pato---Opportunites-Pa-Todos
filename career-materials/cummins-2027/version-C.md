@@ -22,7 +22,7 @@ _Mechanical Engineering Intern | Weigh-Dumping System for Ferroalloys Prior to T
 _Undergraduate Research Assistant | GRX-810 ODS Superalloy Development (with NASA Glenn and Marshall)_, Jan 2026 – Present
 
 - Evaluate 50+ laser powder bed fusion (LPBF) GRX-810 superalloy components for NASA through mechanical testing, SEM and materials analysis to support process qualification
-- Compare parts from 5 EOS LPBF machines at 5 build angles after HIP, analyzing tensile data in Python and running SEM/EBSD to quantify machine-to-machine and orientation-driven variation
+- Run tensile tests on HIP-treated parts from 5 EOS LPBF machines at 5 build angles, then analyze results in Python with SEM/EBSD to quantify machine-to-machine and orientation-driven variation
 - Measured 10.3% lower mean UTS at 90° vs. 45° (793.8 vs. 884.6 MPa) on one machine, with the same trend on all 3 machines tested so far, and yield-strength scatter between machines at 75°–90°
 - AM for Defense Readiness: develop a five-level advanced manufacturing curriculum for 200+ U.S. Army personnel at Fort Bliss
 

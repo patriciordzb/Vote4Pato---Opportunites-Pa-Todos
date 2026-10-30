@@ -169,15 +169,15 @@ FMEA/iDFMEA, GD&T, Creo, Six Sigma/Lean, DAQ/instrumentation, fatigue/durability
 
 **Answered Oct 30 and applied to all three versions:**
 - You used SOLIDWORKS (applied to the Vinton bullet).
-- You personally ran the SEM, EBSD and nanoindentation, and you analyzed the data in Python.
+- You personally ran the tensile tests, SEM, EBSD and nanoindentation, and you analyzed the data in Python.
 - You led the FVL standards gap analysis.
-- You did all of the blisk work, and it was sponsored by NCDMM. The resumes credit NCDMM to the blisk. If NCDMM sponsored FVL instead, or both, move the credit.
+- You did all of the blisk work, and NCDMM sponsored it.
 
 **Still open.** I didn't assume answers to these:
 
 1. **Work authorization:** Are you on an F-1 visa, and will you be CPT-eligible for summer 2027? Your profile lists you as a non-U.S. citizen with sponsorship status unknown.
 2. **Vinton Steel:** Did the prototype include load cells, PLC or controls? Was it tested or installed? Is the $250,000 an **annual** projection, and who produced the estimate?
-3. **GRX-810:** Did you run the tensile tests and sample prep (sectioning, polishing, etching) yourself, or did NASA or lab staff? Did you operate the EOS machines? The resumes currently say you "run"/"execute" the tensile testing, based on the original resume's "mechanical testing."
+3. **GRX-810:** Did you do the sample prep (sectioning, polishing, etching) and operate the EOS machines? If so, that belongs in the resumes too.
 4. **Blisk:** What CAD/FEA did you use? Was it printed? What did NDE and metrology find?
 5. **FVL:** What did the gap analysis produce (number of standards reviewed, gaps found, a report or roadmap)?
 6. **SFF papers:** Which are you first author on? Are they in the published proceedings?
