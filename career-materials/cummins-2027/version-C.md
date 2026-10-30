@@ -3,7 +3,7 @@
 
 El Paso, TX  |  prbeltran@miners.utep.edu  |  linkedin.com/in/patriciorodbel1
 
-_Mechanical engineering student with a $250K-projected cost-reduction design from a steel plant internship and research on machine-to-machine variability in metal additive manufacturing. Experienced with DFM/DFA, process validation, NDE and metrology._
+_Mechanical engineering student who installed a steel-plant system projected to save $250K/year and studies machine-to-machine variability in metal AM; experienced in DFM/DFA, process validation and NDE._
 
 ## Education
 **The University of Texas at El Paso**, El Paso, TX  
@@ -16,12 +16,13 @@ _B.S. Aerospace and Mechanical Engineering; Minor in Materials Science and Engin
 **Vinton Steel, LLC**, El Paso, TX
 _Mechanical Engineering Intern | Weigh-Dumping System for Ferroalloys Prior to Tapping_, May 2026 – Aug 2026
 
-- Designed in SOLIDWORKS and prototyped a weigh-dumping system to control ferroalloy additions before tapping, so heats reach target chemistry without costly re-additions; projected to cut ferroalloy costs by $250,000
+- Designed a weigh-dumping system in SOLIDWORKS to control ferroalloy additions before tapping, so heats reach target chemistry without costly re-additions
+- Built, tested and installed the system in production; projected to cut ferroalloy costs by $250,000 per year
 
 **UTEP W.M. Keck Center for 3D Innovation**, El Paso, TX
 _Undergraduate Research Assistant | GRX-810 ODS Superalloy Development (with NASA Glenn and Marshall)_, Jan 2026 – Present
 
-- Evaluate 50+ laser powder bed fusion (LPBF) GRX-810 superalloy components for NASA through mechanical testing, SEM and materials analysis to support process qualification
+- Evaluate 50+ NASA-printed laser powder bed fusion (LPBF) GRX-810 superalloy components through mechanical testing, SEM and materials analysis to support process qualification
 - Run tensile tests on HIP-treated parts from 5 EOS LPBF machines at 5 build angles, then analyze results in Python with SEM/EBSD to quantify machine-to-machine and orientation-driven variation
 - Measured 10.3% lower mean UTS at 90° vs. 45° (793.8 vs. 884.6 MPa) on one machine, with the same trend on all 3 machines tested so far, and yield-strength scatter between machines at 75°–90°
 - AM for Defense Readiness: develop a five-level advanced manufacturing curriculum for 200+ U.S. Army personnel at Fort Bliss

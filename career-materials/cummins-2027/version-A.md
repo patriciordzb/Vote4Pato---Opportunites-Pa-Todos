@@ -16,15 +16,16 @@ _B.S. Aerospace and Mechanical Engineering; Minor in Materials Science and Engin
 **Vinton Steel, LLC**, El Paso, TX
 _Mechanical Engineering Intern | Weigh-Dumping System for Ferroalloys Prior to Tapping_, May 2026 – Aug 2026
 
-- Designed in SOLIDWORKS and prototyped a weigh-dumping system that meters ferroalloy additions before tapping, targeting re-additions caused by out-of-spec chemistry; projected to cut ferroalloy costs by $250,000
+- Designed a weigh-dumping system in SOLIDWORKS that meters ferroalloy additions before tapping, targeting re-additions caused by out-of-spec chemistry
+- Built, tested and installed the prototype in production; projected to cut ferroalloy costs by $250,000 per year
 
 **UTEP W.M. Keck Center for 3D Innovation**, El Paso, TX
 _Undergraduate Research Assistant | GRX-810 ODS Superalloy Development (with NASA Glenn and Marshall)_, Jan 2026 – Present
 
-- Characterize 50+ laser powder bed fusion (LPBF) GRX-810 superalloy components for extreme-environment aerospace hardware through mechanical testing, SEM and materials analysis
+- Characterize 50+ NASA-printed laser powder bed fusion (LPBF) GRX-810 superalloy components for extreme-environment aerospace hardware through mechanical testing, SEM and materials analysis
 - Execute a tensile test matrix of HIP-treated specimens across 5 build angles (45°–90°) and 5 EOS LPBF machines to quantify how build orientation and machine affect strength and variability
 - Measured 10.3% lower mean UTS at 90° vs. 45° (793.8 vs. 884.6 MPa) on one machine, with the same trend on all 3 machines tested so far; flagged yield-strength scatter at 75°–90°
-- Operate SEM and EBSD to identify failure modes (dimpled, ductile fracture at 45°) and relate them to columnar grain structure; analyze test and characterization data in Python
+- Section, polish and etch specimens, then operate SEM and EBSD to identify failure modes (dimpled, ductile fracture at 45°) and relate them to columnar grain structure; analyze all data in Python
 - Perform instrumented nanoindentation to measure nanoscale deformation and creep response of LPBF GRX-810
 - AM for Defense Readiness: develop a five-level advanced manufacturing curriculum for 200+ U.S. Army personnel at Fort Bliss
 
@@ -58,6 +59,6 @@ _Founder and Chief Executive Officer_, Sep 2026 – Present
 ## Technical Skills
 
 - **CAD & Analysis:** SOLIDWORKS (CSWP), Siemens NX, Fusion 360, ANSYS, Altair HyperWorks
-- **Testing & Characterization:** SEM/fractography, EBSD, instrumented nanoindentation, tensile testing, EDS, metallography, XCT, NDT
+- **Testing & Characterization:** Tensile testing, SEM/fractography, EBSD, nanoindentation, metallographic prep, EDS, XCT, NDT
 - **Manufacturing:** Additive manufacturing (LPBF), CNC machining, wire EDM; DFM/DFA
 - **Programming & Data:** Python, MATLAB, Minitab, SQL, JavaScript, React

@@ -16,10 +16,10 @@ _B.S. Aerospace and Mechanical Engineering; Minor in Materials Science and Engin
 **UTEP W.M. Keck Center for 3D Innovation**, El Paso, TX
 _Undergraduate Research Assistant | GRX-810 ODS Superalloy Development (with NASA Glenn and Marshall)_, Jan 2026 – Present
 
-- Characterize 50+ laser powder bed fusion (LPBF) components of GRX-810, a NiCoCr oxide-dispersion-strengthened (ODS) superalloy, for extreme-environment aerospace applications
+- Characterize 50+ NASA-printed laser powder bed fusion (LPBF) components of GRX-810, a NiCoCr oxide-dispersion-strengthened (ODS) superalloy, for extreme-environment aerospace applications
 - Run room-temperature tensile tests on HIP-treated (1,163 °C, 100 MPa) miniature specimens built at 5 angles (45°–90°) on 5 EOS LPBF machines to isolate build-orientation and machine effects
 - Measured 10.3% lower mean UTS at 90° vs. 45° (793.8 vs. 884.6 MPa) on one machine, with the same trend on all 3 machines tested so far, plus yield-strength scatter at 75°–90°
-- Operate SEM (fractography), EBSD (IPF maps, pole figures) and optical metallography; investigating whether columnar grains retained after HIP drive the orientation-dependent strength
+- Section, polish and electrolytically etch specimens; operate SEM (fractography), EBSD (IPF maps, pole figures) and optical microscopy to test whether columnar grains retained after HIP drive orientation-dependent strength
 - Perform instrumented nanoindentation to quantify nanoscale deformation and creep response; process and analyze all test and characterization data in Python
 - AM for Defense Readiness: develop a five-level advanced manufacturing curriculum for 200+ U.S. Army personnel at Fort Bliss
 
@@ -28,7 +28,7 @@ _Undergraduate Research Assistant | GRX-810 ODS Superalloy Development (with NAS
 **Vinton Steel, LLC**, El Paso, TX
 _Mechanical Engineering Intern_, May 2026 – Aug 2026
 
-- Designed in SOLIDWORKS and prototyped a ferroalloy weigh-dumping system to prevent re-additions caused by out-of-spec melt chemistry; projected to cut ferroalloy costs by $250,000
+- Designed in SOLIDWORKS, prototyped, tested and installed a ferroalloy weigh-dumping system that prevents re-additions from out-of-spec melt chemistry; projected to cut ferroalloy costs by $250,000 per year
 
 **ASCENT Lab (Advanced Student Collaborative Engineering for Novel Technology)**, El Paso, TX
 _Founder and Chief Executive Officer_, Sep 2026 – Present
@@ -59,7 +59,7 @@ _Founder and Chief Executive Officer_, Sep 2026 – Present
 
 ## Technical Skills
 
-- **Characterization:** SEM, SEM fractography, EBSD, EDS, optical metallography, XCT, NDT
+- **Characterization:** Metallographic prep (sectioning, polishing, etching), SEM, fractography, EBSD, EDS, optical microscopy, XCT, NDT
 - **Mechanical Testing:** Instrumented nanoindentation (creep), tensile testing of miniature specimens
 - **Materials & Processes:** LPBF additive manufacturing, Ni superalloys (GRX-810, Inconel 718), CNC, wire EDM
 - **Software:** Python (data analysis), MATLAB, Minitab, SQL; SOLIDWORKS (CSWP), Siemens NX, Fusion 360, ANSYS, HyperWorks

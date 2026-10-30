@@ -26,7 +26,7 @@ The three tailored resumes are in [`version-A.md`](version-A.md) (Product/Mechan
 | Degree | Bachelor's, Master's, PhD; "all engineering majors" typically considered | Meets |
 | GPA | 2.5 minimum or preferred on most copies. One ZipRecruiter copy says 3.25 (unconfirmed) | 3.23 overall / 3.75 major. Clears 2.5. Sits just below the unconfirmed 3.25 |
 | Residency | Product Engineering copy: "must be currently residing within the continental U.S." | Meets (El Paso) |
-| Work authorization | Right to work verified via E-Verify. **F-1 students must have approved CPT or OPT before the assignment begins.** No posting found that states a visa-sponsorship policy either way | **Needs your confirmation.** Your profile lists you as a non-U.S. citizen |
+| Work authorization | Right to work verified via E-Verify. **F-1 students must have approved CPT or OPT before the assignment begins.** No posting found that states a visa-sponsorship policy either way | **Meets the stated requirement.** You confirmed you have CPT and OPT available. Make sure CPT is approved for the exact summer 2027 dates before the start date |
 | Relocation | Some copies say no relocation package | Plan for Columbus, IN housing |
 | Pay (2026 copies) | Bachelor's ~$3,900–$5,000/month (varies by posting) | — |
 
@@ -54,7 +54,7 @@ No current posting surfaced for a dedicated "R&D," "Research & Technology" or "A
 ### Strongest competitive advantages
 1. **NASA-partnered metal AM research with real numbers, where you run the SEM, EBSD and nanoindentation and analyze the data in Python yourself.** GRX-810 tensile testing across 5 EOS LPBF machines × 5 build angles after HIP, with a measured 10.3% UTS drop at 90° vs 45°. This is process-structure-property work and maps directly to Cummins' "material & process selection," "material characterization" and "durability at higher temperatures" challenges.
 2. **Characterization toolkit that matches the Materials posting nearly word for word:** SEM, EBSD, EDS, optical metallography, fractography, XCT, NDT.
-3. **Industry internship with a cost outcome:** the Vinton Steel weigh-dumping system, projected at $250,000 in ferroalloy savings. It shows design + prototype + business impact in a heavy-industry plant.
+3. **Industry internship with a cost outcome:** the Vinton Steel weigh-dumping system, which you designed in SOLIDWORKS, built, tested and installed. It's projected to save $250,000 per year in ferroalloys, showing the full design → prototype → test → install cycle with business impact in a heavy-industry plant.
 4. **Four SFF 2026 papers as presenter, plus the symposium scholarship.** This is unusual for an undergraduate and signals technical communication and research maturity.
 5. **CSWP certification**, a verifiable CAD credential.
 6. **Leadership at scale:** you founded the ASCENT lab ($10K Sandia-sourced funding, 24 students, 4 teams) and serve as SHPE//MAES Director of Academics (400+ students). This covers Cummins' collaboration, communication and "drives results" behavioral competencies.
@@ -148,8 +148,8 @@ See [`version-A.md`](version-A.md), [`version-B.md`](version-B.md), [`version-C.
 FMEA/iDFMEA, GD&T, Creo, Six Sigma/Lean, DAQ/instrumentation, fatigue/durability analysis, tribology/wear testing, a demonstrated FEA project, and powertrain/engine-specific experience. None is unusual for an intern applicant, but FMEA and GD&T appear across several Cummins postings.
 
 ### Recommendations to improve competitiveness [Recommendation]
-1. **Confirm work authorization** (CPT eligibility through the UTEP international office) before applying. This is the single biggest risk.
-2. **Answer the clarification questions below.** Two to three more quantified, first-person bullets (especially Vinton and the GRX-810 statistics) would help more than any wording change.
+1. **Work authorization:** you have CPT and OPT. Answer "yes" to authorization questions as your status allows, and request CPT through the UTEP international office as soon as you get an offer.
+2. **Answer the remaining questions below.** Coursework and any FMEA, GD&T or Six Sigma exposure would close the most-cited gaps.
 3. **Close one cheap, credible gap before December:** a short GD&T or FMEA course, or a free Lean Six Sigma White/Yellow Belt. Add it only once completed.
 4. **Tie GRX-810 to Cummins in your cover note and interviews:** "durability of components at higher temperatures and pressures" is a stated Cummins engineering challenge, and orientation-dependent strength in AM parts is a qualification question for any AM engine component.
 5. Apply through **earlycareers.cummins.jobs** and join the Talent Community for alerts. Use SHPE 2026 contacts if Cummins recruiters attend. TechPoint lists Cummins as an Indiana convention partner, though a career-fair booth isn't confirmed.
@@ -172,14 +172,14 @@ FMEA/iDFMEA, GD&T, Creo, Six Sigma/Lean, DAQ/instrumentation, fatigue/durability
 - You personally ran the tensile tests, SEM, EBSD and nanoindentation, and you analyzed the data in Python.
 - You led the FVL standards gap analysis.
 - You did all of the blisk work, and NCDMM sponsored it.
+- You did the metallographic sample prep (sectioning, polishing, etching). The GRX-810 specimens were printed at NASA.
+- The Vinton prototype was tested and installed, and the $250,000 savings is per year.
+- You have CPT and OPT available.
 
 **Still open.** I didn't assume answers to these:
 
-1. **Work authorization:** Are you on an F-1 visa, and will you be CPT-eligible for summer 2027? Your profile lists you as a non-U.S. citizen with sponsorship status unknown.
-2. **Vinton Steel:** Did the prototype include load cells, PLC or controls? Was it tested or installed? Is the $250,000 an **annual** projection, and who produced the estimate?
-3. **GRX-810:** Did you do the sample prep (sectioning, polishing, etching) and operate the EOS machines? If so, that belongs in the resumes too.
-4. **Blisk:** What CAD/FEA did you use? Was it printed? What did NDE and metrology find?
-5. **FVL:** What did the gap analysis produce (number of standards reviewed, gaps found, a report or roadmap)?
-6. **SFF papers:** Which are you first author on? Are they in the published proceedings?
-7. **Coursework:** Which relevant courses have you completed (Mechanics of Materials, Machine Design, Heat Transfer, Materials Selection, Manufacturing Processes)? Versions A and C have room for a coursework line.
-8. **Any exposure to FMEA, GD&T, Creo, Lean/Six Sigma or DAQ**, even in a class?
+1. **Blisk:** What CAD/FEA did you use? Was it printed? What did NDE and metrology find?
+2. **FVL:** What did the gap analysis produce (number of standards reviewed, gaps found, a report or roadmap)?
+3. **SFF papers:** Which are you first author on? Are they in the published proceedings?
+4. **Coursework:** Which relevant courses have you completed (Mechanics of Materials, Machine Design, Heat Transfer, Materials Selection, Manufacturing Processes)? Versions A and C have room for a coursework line.
+5. **Any exposure to FMEA, GD&T, Creo, Lean/Six Sigma or DAQ**, even in a class?
