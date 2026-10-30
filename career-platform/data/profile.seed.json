@@ -1,0 +1,115 @@
+{
+  "_comment": "Starting profile built from the resume (Oct 2026) and the GRX-810 SHPE 2026 poster. Phone, email and GPA are deliberately NOT stored in this repository file; add them in the app if you want them. Review and edit everything on the Profile page.",
+  "data": {
+    "fullName": "Patricio S. Rodriguez Beltran",
+    "headline": "Aerospace & Mechanical Engineering student · Metal AM researcher (LPBF GRX-810 with NASA) · Founder, ASCENT Lab",
+    "location": "El Paso, Texas",
+    "linkedinUrl": "https://www.linkedin.com/in/patriciorodbel1",
+    "summary": "Aerospace and mechanical engineering student at UTEP (minor in Materials Science) researching laser powder bed fusion of NASA's GRX-810 oxide-dispersion-strengthened superalloy at the W.M. Keck Center for 3D Innovation. My work connects build angle and machine to microstructure and room-temperature tensile properties after HIP, toward process qualification across EOS L-PBF systems. I also founded a student hardware R&D lab and design manufacturing solutions in industry.",
+    "education": [
+      {
+        "school": "The University of Texas at El Paso",
+        "degree": "B.S. Aerospace and Mechanical Engineering",
+        "minor": "Materials Science and Engineering",
+        "expectedGraduation": "Fall 2027",
+        "honors": ["SFF 2026 Symposium Scholarship", "SHPE National Student Leader Award"]
+      }
+    ],
+    "experience": [
+      {
+        "org": "UTEP W.M. Keck Center for 3D Innovation",
+        "role": "Undergraduate Research Assistant — Glenn Research Center GRX-810 ODS Alloy Development",
+        "location": "El Paso, TX",
+        "start": "2026-01",
+        "end": "present",
+        "bullets": ["Partner with NASA to characterize 50+ additively manufactured GRX-810 (ODS alloy) components for extreme aerospace applications through mechanical testing, SEM microstructure analysis and materials analysis."]
+      },
+      {
+        "org": "UTEP W.M. Keck Center for 3D Innovation",
+        "role": "Undergraduate Research Assistant — Additive Manufacturing for Defense Readiness",
+        "location": "El Paso, TX",
+        "start": "2026-01",
+        "end": "present",
+        "bullets": ["Develop a five-level advanced manufacturing curriculum for 200+ U.S. Army personnel at Fort Bliss."]
+      },
+      {
+        "org": "Vinton Steel, LLC",
+        "role": "Mechanical Engineering Intern — Weigh-Dumping System for Ferroalloys",
+        "location": "El Paso, TX",
+        "start": "2026-05",
+        "end": "2026-08",
+        "bullets": ["Designed and prototyped a weigh-dumping system for ferroalloys to prevent re-additions caused by out-of-spec chemistry; the work is expected to cut ferroalloy expenses by about $250,000."]
+      },
+      {
+        "org": "ASCENT — Advanced Student Collaborative Engineering for Novel Technology Laboratory",
+        "role": "Founder and Chief Executive Officer",
+        "location": "El Paso, TX",
+        "start": "2026-09",
+        "end": "present",
+        "bullets": [
+          "Founded a student R&D lab with $10,000 in Sandia National Laboratories-sourced funding, partnering with the W.M. Keck Center and the UTEP Aerospace Center.",
+          "Lead 24 engineering students across 4 teams: a 3D-printed liquid rocket engine, an autonomous wildfire and flood response drone system, open-source prosthetic limbs, and a portable 3D printer with custom slicing software."
+        ]
+      }
+    ],
+    "research": [
+      {
+        "title": "Microstructure–Property Relationships in GRX-810 NiCoCr ODS Alloy Fabricated via Laser Powder Bed Fusion: A Multi-System, Build Angle and Machine-Dependent Study",
+        "org": "UTEP W.M. Keck Center · NASA Marshall Space Flight Center · NASA Glenn Research Center",
+        "question": "How do build angle and EOS L-PBF machine affect the microstructure and room-temperature tensile properties of HIP-treated GRX-810?",
+        "methods": [
+          "Five EOS L-PBF systems (M280-M1, M280-M2, M290, M400-M1, M400-M2) on a NASA MSFC build artifact",
+          "HIP at 1163 °C, 3–4 h, 100 MPa",
+          "Room-temperature tensile tests of miniature dog bones at 45°, 50°, 60°, 75° and 90° build angles",
+          "Optical microscopy (glyceregia electro-etch), EBSD (IPF maps, pole figures), SEM fractography"
+        ],
+        "keyFindings": [
+          "On all three machines tested so far, mean UTS was lower at 90° than at 45°.",
+          "EOS M280-M1: 884.6 MPa mean UTS at 45° vs 793.8 MPa at 90° (10.3% lower).",
+          "Machine-to-machine differences and scatter in yield strength, especially at 75° and 90°.",
+          "Columnar grains along the build direction in the sections examined; dimpled fracture surfaces at 45° indicate ductile failure.",
+          "Preliminary: the mechanism (retained anisotropy after HIP) and a texture–strength link are not yet confirmed."
+        ],
+        "nextSteps": ["Complete M400-M1/M400-M2 tensile testing", "Quantify texture and grain morphology", "Statistical analysis of machine × angle effects", "Evidence for GRX-810 qualification across EOS machines"],
+        "collaborators": ["Paul R. Gradl, Ph.D. (NASA MSFC)", "Timothy Smith, Ph.D. (NASA GRC)", "Francisco Medina, Ph.D. (UTEP Keck Center)"]
+      }
+    ],
+    "projects": [
+      { "name": "Turbine Blade Disk (AM Inconel 718 Blisk)", "bullets": ["Designed an AM Inconel 718 blisk and carried it through DFM/DFA review, ISO/ASTM-aligned process validation, NDE and metrology."] },
+      { "name": "Future Vertical Lift (FVL)", "bullets": ["Partnered with Bessel, Bell Flight and AFRL to close gaps in ISO/ASTM/NASA AM standards, helping expand DoD adoption of end-use AM parts."] }
+    ],
+    "publications": [
+      { "title": "Thin Wall Microstructure and Mechanical Behavior of GRX-810 ODS Alloy Fabricated Across Multiple Laser Powder Bed Fusion Systems", "venue": "2026 International Solid Freeform Fabrication (SFF) Symposium", "role": "Presenter" },
+      { "title": "Nanoscale Deformation and Creep Response of LPBF Processed GRX-810 via Instrumented Nanoindentation", "venue": "2026 SFF Symposium", "role": "Presenter" },
+      { "title": "Laser Welding of Additively Manufactured Inconel 718 Double-Walled Cooling Channels", "venue": "2026 SFF Symposium", "role": "Presenter" },
+      { "title": "Comparative Analysis on Traditional Manufacturing and Additive Manufacturing on Aluminum Matrix Alloy", "venue": "2026 SFF Symposium", "role": "Presenter" },
+      { "title": "Microstructure–Property Relationships in GRX-810 NiCoCr ODS Alloy Fabricated via LPBF (poster)", "venue": "2026 SHPE National Convention", "role": "Lead author" }
+    ],
+    "leadership": [
+      { "org": "SHPE // MAES at UTEP", "role": "Director of Academics", "bullets": ["Organize technical workshops and events reaching 400+ students; lead a three-session career-readiness bootcamp for the SHPE National Convention.", "Launched S.U.N. (Summer Undergraduate Network) and secured $2,500 for UAS technology development."] },
+      { "org": "Sun City Summit Rocket Team", "role": "Member", "bullets": [] }
+    ],
+    "skillGroups": [
+      { "name": "Advanced manufacturing", "items": ["Additive manufacturing (LPBF)", "CNC machining", "Wire EDM"] },
+      { "name": "Materials & metrology", "items": ["SEM", "EDS", "EBSD", "Metallography", "XCT", "NDT", "Tensile testing", "Nanoindentation", "HIP / heat treatment"] },
+      { "name": "Design & analysis", "items": ["SolidWorks (CSWP)", "Siemens NX", "Fusion 360", "HyperWorks", "ANSYS"] },
+      { "name": "Programming & statistics", "items": ["Python", "MATLAB", "Minitab", "SQL", "JavaScript", "React"] }
+    ],
+    "certifications": ["Certified SolidWorks Professional (CSWP)"],
+    "affiliations": ["SHPE // MAES", "Sun City Summit Rocket Team"]
+  },
+  "preferences": {
+    "citizenship": "non_us_citizen",
+    "usPerson": "unknown",
+    "workAuthorization": "",
+    "sponsorship": "unknown",
+    "clearance": "unknown",
+    "degreeLevel": "bachelors",
+    "graduation": "2027-12",
+    "locations": [],
+    "openToRelocate": true,
+    "employmentTypes": ["internship", "co_op", "full_time", "research", "development_program"],
+    "industries": ["Aerospace & Defense", "Additive Manufacturing", "Advanced Manufacturing", "Materials", "Space", "Energy", "Automotive", "Industrial", "Academia & Research"],
+    "goals": "Internships and co-ops in aerospace propulsion, additive manufacturing and materials/process engineering; graduate research in metal AM; full-time roles after Fall 2027."
+  }
+}

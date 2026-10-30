@@ -1,0 +1,897 @@
+{
+  "format": "shpe-cc-dataset/v1",
+  "generated": "2026-10-30",
+  "notes": "Research snapshot compiled 2026-10-30. shpe.org and cvent.com could not be fetched directly from the build environment (network policy), so those pages were read through search-engine index snapshots. Each record carries its own verification level. Company engineering descriptions summarize long-standing public company information and are labelled partially_verified until re-checked on the official site.",
+  "event": {
+    "name": "2026 SHPE National Convention",
+    "dates": "October 28–31, 2026",
+    "start": "2026-10-28",
+    "end": "2026-10-31",
+    "venue": "Indiana Convention Center, Indianapolis, IN",
+    "career_fair": [
+      { "day": "2026-10-30", "hours": "8:00 AM – 3:00 PM" },
+      { "day": "2026-10-31", "hours": "9:00 AM – 3:00 PM" }
+    ],
+    "career_fair_verification": "partially_verified",
+    "career_fair_source": "https://gt-shpe.com/nc",
+    "scale_note": "Published exhibitor counts disagree (TechPoint: ~150 career-fair employers; GT-SHPE: 300+; sponsor sites: 220–250+). The official floor plan / Attendee Hub was not retrievable; booth numbers are listed only where a company published its own.",
+    "sources": [
+      "https://shpe.org/engage/events/national-convention/",
+      "https://techpoint.org/digital-innovation/shpe-national-convention-indianapolis-2026/",
+      "https://ece.engineering.arizona.edu/news-events/students-gain-valuable-career-insights-shpe-national-convention"
+    ]
+  },
+  "sources": [
+    { "key": "cvent", "url": "https://web.cvent.com/event/432b07e5-d865-4514-aa53-5377ab9c37c5/", "title": "2026 SHPE National Convention — official registration site (Gold sponsors listed)", "publisher": "SHPE via Cvent", "source_type": "official_shpe", "accessed_at": "2026-10-30", "access_note": "Read through search-engine index snapshot; direct fetch blocked by build-environment network policy." },
+    { "key": "shpe-nc", "url": "https://shpe.org/engage/events/national-convention/", "title": "SHPE National Convention — Oct 28–31, 2026, Indianapolis", "publisher": "SHPE", "source_type": "official_shpe", "accessed_at": "2026-10-30", "access_note": "Read through search-engine index snapshot." },
+    { "key": "shpe-ipc", "url": "https://shpe.org/about-shpe/our-supporters/ipc/", "title": "SHPE Industry Partnership Council — 2026-2027 members", "publisher": "SHPE", "source_type": "official_shpe", "accessed_at": "2026-10-30", "access_note": "Member names taken from search-index captures of logo alt text; capture may be incomplete. IPC membership is a year-round partnership, not proof of a career-fair booth." },
+    { "key": "techpoint", "url": "https://techpoint.org/digital-innovation/shpe-national-convention-indianapolis-2026/", "title": "SHPE National Convention to bring 10,000 STEM leaders to Indianapolis in October", "publisher": "TechPoint", "source_type": "news", "accessed_at": "2026-10-30" },
+    { "key": "gtshpe", "url": "https://gt-shpe.com/nc", "title": "GT-SHPE — National Convention (career-fair days and hours)", "publisher": "Georgia Tech SHPE chapter", "source_type": "university", "accessed_at": "2026-10-30" },
+    { "key": "ge-event", "url": "https://careers.geaerospace.com/global/en/event/6a79dd218e1931db74c901b7/GE-Aerospace-at-SHPE-National-Convention-Career-Fair-2026", "title": "GE Aerospace at SHPE National Convention & Career Fair 2026", "publisher": "GE Aerospace Careers", "source_type": "company_official", "accessed_at": "2026-10-30" },
+    { "key": "qnity-event", "url": "https://careers.qnityelectronics.com/us/en/event/6acd260b9dac59f6b3d045ff/2026-SHPE-National-Convention", "title": "Qnity — 2026 SHPE National Convention", "publisher": "Qnity Electronics Careers", "source_type": "company_official", "accessed_at": "2026-10-30" },
+    { "key": "wf-event", "url": "https://talent.wellsfargojobs.com/portal/page/2026-shpe-natl-conv-seefx7zh2", "title": "2026 SHPE Natl Conv — Wells Fargo", "publisher": "Wells Fargo Talent", "source_type": "company_official", "accessed_at": "2026-10-30" },
+    { "key": "merck-event", "url": "https://jobs.merck.com/us/en/event/69cd7bda6c359490e54229e1/2026-SHPE-National-Convention", "title": "Merck — 2026 SHPE National Convention", "publisher": "Merck Careers", "source_type": "company_official", "accessed_at": "2026-10-30" },
+    { "key": "kla-event", "url": "https://www.kla.com/events/shpe-national-conference-2026", "title": "KLA — SHPE National Conference (Oct 28–31, 2026)", "publisher": "KLA", "source_type": "company_official", "accessed_at": "2026-10-30" },
+    { "key": "msft-conf", "url": "https://careers.microsoft.com/v2/global/en/USconferences.html", "title": "Microsoft US Conferences and Events — SHPE, booth #831", "publisher": "Microsoft Careers", "source_type": "company_official", "accessed_at": "2026-10-30" },
+    { "key": "mortenson", "url": "https://www.mortenson.com/inclusion/nop/shpe", "title": "Mortenson — SHPE (Booth #1121, Indiana Convention Center)", "publisher": "Mortenson", "source_type": "company_official", "accessed_at": "2026-10-30" },
+    { "key": "granite", "url": "https://www.graniteconstruction.com/node/9658", "title": "Granite — SHPE National Convention & Career Fair", "publisher": "Granite Construction", "source_type": "company_official", "accessed_at": "2026-10-30", "access_note": "Event year not visible in the indexed snippet." },
+    { "key": "boeing-shpe", "url": "https://jobs.boeing.com/shpe", "title": "Boeing — SHPE National Convention page", "publisher": "Boeing Careers", "source_type": "company_official", "accessed_at": "2026-10-30", "access_note": "Dates on the page (career fair Nov 3–4) do not match 2026." },
+    { "key": "bechtel-shpe", "url": "https://www.bechtel.com/events/shpe-national-convention/", "title": "Bechtel — SHPE National Convention", "publisher": "Bechtel", "source_type": "company_official", "accessed_at": "2026-10-30", "access_note": "Page refers to the 2025 convention." },
+    { "key": "ge-r5029659", "url": "https://careers.geaerospace.com/global/en/job/R5029659/Manufacturing-Engineering-Intern-US-Summer-2027", "title": "GE Aerospace — Manufacturing Engineering Intern – US – Summer 2027 (R5029659)", "publisher": "GE Aerospace Careers", "source_type": "company_official", "accessed_at": "2026-10-30", "access_note": "Read through search-engine index; posting date 2026-10-09." },
+    { "key": "hon-me-intern", "url": "https://prosple.com/graduate-employers/honeywell-aerospace/jobs-internships/mechanical-engineering-intern-summer-2027", "title": "Honeywell Aerospace — Mechanical Engineering Intern, Summer 2027 (Prosple listing)", "publisher": "Prosple (third-party aggregator)", "source_type": "third_party", "accessed_at": "2026-10-30", "access_note": "Aggregator copies disagree: 'U.S. citizen only' vs 'U.S. Person Required'." },
+    { "key": "hon-se-intern", "url": "https://prosple.com/graduate-employers/honeywell-aerospace/jobs-internships/systems-engineering-intern-summer-2027-us-person-required", "title": "Honeywell Aerospace — Systems Engineering Intern, Summer 2027 (U.S. Person Required)", "publisher": "Prosple (third-party aggregator)", "source_type": "third_party", "accessed_at": "2026-10-30" }
+  ],
+  "companies": [
+    {
+      "slug": "ge-aerospace", "name": "GE Aerospace", "industry": "Aerospace & Defense",
+      "industries": ["Aerospace & Defense", "Additive Manufacturing", "Advanced Manufacturing", "Materials"],
+      "headquarters": "Evendale, Ohio", "website": "https://www.geaerospace.com", "domain": "geaerospace.com",
+      "careers_url": "https://careers.geaerospace.com",
+      "description": "Designs, manufactures and services commercial and military aircraft engines, components and systems; standalone public company since GE's 2024 separation. Its Colibrium Additive business (formerly GE Additive) supplies metal AM machines and expertise.",
+      "size": "Large enterprise (~50,000+ employees)", "presence": "Global; major U.S. engineering and manufacturing sites in Ohio, Massachusetts, North Carolina, Indiana and others",
+      "products": ["Commercial turbofans (CFM LEAP via CFM International, GE9X, GEnx)", "Military engines (T901, F414)", "Colibrium Additive metal AM systems", "Engine services"],
+      "tags": {
+        "propulsion_turbomachinery": [3, "commercial and military jet-engine design and hot-section hardware"],
+        "additive_manufacturing": [3, "production additive parts in its engines and its Colibrium Additive business"],
+        "lpbf": [3, "laser powder bed fusion machines and process development (Colibrium Additive)"],
+        "superalloys_high_temp": [3, "nickel-based superalloys and hot-section materials for turbine engines"],
+        "am_qualification_standards": [3, "qualifying additive parts for certified flight engines"],
+        "heat_treatment_hip": [2, "post-processing and heat treatment of engine-grade alloys"],
+        "mechanical_testing": [2, "materials and component testing that supports engine certification"],
+        "materials_characterization": [2, "materials & process engineering labs"],
+        "ndt_metrology": [2, "inspection of critical rotating engine parts"],
+        "manufacturing_engineering": [3, "global engine manufacturing and assembly operations"],
+        "process_optimization": [2, "lean operating model (FLIGHT DECK) across its plants"],
+        "machining_cnc": [2, "precision machining of engine components"],
+        "cad_design": [2, "mechanical design of engine components"],
+        "simulation_fea": [2, "structural and thermal analysis of engine hardware"],
+        "aerospace_systems": [2, "engine-airframe integration"],
+        "defense": [2, "military engine programs"],
+        "research_development": [2, "GE Aerospace Research center in Niskayuna, NY"]
+      },
+      "engineering_areas": ["Engineering — design, materials & processes", "Manufacturing engineering", "Additive (Colibrium Additive)", "Services / MRO engineering", "Edison Engineering Development Program", "Operations Management Leadership Program"],
+      "technical_challenges": ["Qualifying AM hot-section parts across machines and lots", "Raising temperature capability of hot-section materials", "Scaling production rates for LEAP and military programs"],
+      "eligibility_notes": "Mix of commercial and defense work. Defense and export-controlled roles may require U.S. person status; commercial roles vary by posting.",
+      "participation": [
+        { "event_year": 2026, "role": "exhibitor", "verification": "verified", "source": "ge-event", "evidence": "GE Aerospace's careers site has an event page titled 'GE Aerospace at SHPE National Convention & Career Fair 2026' in Indianapolis, Indiana." }
+      ]
+    },
+    {
+      "slug": "honeywell-aerospace", "name": "Honeywell Aerospace", "industry": "Aerospace & Defense",
+      "industries": ["Aerospace & Defense", "Space", "Advanced Manufacturing"],
+      "headquarters": "Phoenix, Arizona", "website": "https://aerospace.honeywell.com", "domain": "honeywell.com",
+      "careers_url": "https://careers.honeywell.com",
+      "description": "Honeywell's aerospace business supplies propulsion (auxiliary power units, turbofan and turboshaft engines), avionics, flight controls, and mechanical and electrical systems for commercial, defense and space customers.",
+      "size": "Large enterprise", "presence": "Global; large U.S. engineering sites in Arizona, Minnesota, Florida, New Mexico and others",
+      "products": ["Auxiliary power units", "HTF7000 turbofan", "T55 turboshaft", "Avionics & flight controls", "Space components"],
+      "tags": {
+        "propulsion_turbomachinery": [3, "APUs and turbofan/turboshaft engines"],
+        "aerospace_systems": [3, "avionics, flight controls and aircraft mechanical systems"],
+        "additive_manufacturing": [2, "additive manufacturing of aerospace components"],
+        "superalloys_high_temp": [2, "hot-section materials for turbines and APUs"],
+        "am_qualification_standards": [2, "certifying additively manufactured flight hardware"],
+        "mechanical_testing": [2, "component qualification testing"],
+        "manufacturing_engineering": [2, "aerospace production and repair operations"],
+        "defense": [2, "military engines and systems"],
+        "space": [1, "space-qualified components"],
+        "cad_design": [2, "mechanical design of aerospace hardware"],
+        "simulation_fea": [2, "structural and thermal analysis"],
+        "materials_characterization": [1, "materials engineering support"],
+        "heat_treatment_hip": [1, "special processes for engine hardware"],
+        "ndt_metrology": [1, "inspection of flight hardware"]
+      },
+      "engineering_areas": ["Mechanical engineering", "Systems engineering", "Materials & process engineering", "Manufacturing engineering", "Engineering internships"],
+      "technical_challenges": ["Hardware qualification under export-control constraints", "Weight and efficiency improvements in propulsion and power systems"],
+      "eligibility_notes": "Several Summer 2027 engineering internships are labelled 'U.S. Person Required' and state that sponsorship is not available (see Job Tracker). Check each posting.",
+      "participation": [
+        { "event_year": 2026, "role": "sponsor", "tier": "Gold", "verification": "verified", "source": "cvent", "evidence": "Listed as a Gold sponsor on the official 2026 SHPE National Convention registration site; TechPoint also names Honeywell Aerospace among major participants." },
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Appears in a search-index capture of SHPE's 2026-2027 Industry Partnership Council page." }
+      ]
+    },
+    {
+      "slug": "ge-vernova", "name": "GE Vernova", "industry": "Energy",
+      "industries": ["Energy", "Advanced Manufacturing", "Materials"],
+      "headquarters": "Cambridge, Massachusetts", "website": "https://www.gevernova.com", "domain": "gevernova.com",
+      "description": "Energy company spun off from GE in 2024 covering gas power (heavy-duty and aeroderivative gas turbines), wind, nuclear (GE Vernova Hitachi) and grid electrification.",
+      "size": "Large enterprise", "presence": "Global; U.S. sites in South Carolina, New York, Texas and others",
+      "products": ["Heavy-duty & aeroderivative gas turbines", "Onshore/offshore wind turbines", "Small modular reactor designs (BWRX-300)", "Grid equipment"],
+      "tags": {
+        "energy_power": [3, "gas, wind, nuclear and grid technologies"],
+        "propulsion_turbomachinery": [3, "heavy-duty and aeroderivative gas turbines"],
+        "superalloys_high_temp": [3, "hot-gas-path components in gas turbines"],
+        "additive_manufacturing": [2, "additive parts and repairs for gas-turbine components"],
+        "heat_treatment_hip": [1, "heat treatment of turbine alloys"],
+        "mechanical_testing": [2, "materials and component validation"],
+        "materials_characterization": [2, "materials engineering for turbine life"],
+        "manufacturing_engineering": [2, "turbine and blade manufacturing"],
+        "simulation_fea": [2, "thermal-structural analysis of turbine hardware"],
+        "ndt_metrology": [1, "inspection of turbine components"]
+      },
+      "engineering_areas": ["Gas power engineering", "Materials & process engineering", "Manufacturing", "Nuclear engineering"],
+      "technical_challenges": ["Higher firing temperatures and hydrogen-capable combustion", "Turbine component life and repair"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Appears in a search-index capture of SHPE's 2026-2027 Industry Partnership Council page. A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "cummins", "name": "Cummins", "industry": "Automotive",
+      "industries": ["Automotive", "Energy", "Advanced Manufacturing", "Industrial"],
+      "headquarters": "Columbus, Indiana", "website": "https://www.cummins.com", "domain": "cummins.com",
+      "careers_url": "https://www.cummins.com/careers",
+      "description": "Indiana-based global power-technology company that designs and manufactures diesel, natural-gas and hydrogen engines, power-generation systems, components, and zero-emissions technologies (Accelera).",
+      "size": "Large enterprise", "presence": "Global; headquarters and technical center in Columbus, Indiana",
+      "products": ["Diesel & natural-gas engines", "Power generation", "Components (filtration, turbo, aftertreatment)", "Accelera electrolyzers & batteries"],
+      "tags": {
+        "automotive_powertrain": [3, "on- and off-highway engines and powertrains"],
+        "energy_power": [2, "power generation and electrolyzers"],
+        "manufacturing_engineering": [3, "engine and component manufacturing plants"],
+        "additive_manufacturing": [2, "metal additive manufacturing for engine components"],
+        "metals_processing": [2, "castings and machined engine components"],
+        "mechanical_testing": [2, "engine durability and materials testing"],
+        "process_optimization": [2, "manufacturing quality and cost improvement"],
+        "cad_design": [2, "mechanical design of engine systems"],
+        "simulation_fea": [2, "engine structural and thermal analysis"],
+        "materials_characterization": [1, "materials engineering"],
+        "heavy_equipment_rail": [1, "engines for off-highway equipment"]
+      },
+      "engineering_areas": ["Mechanical / product engineering", "Manufacturing engineering", "Materials engineering", "Accelera (new power)"],
+      "technical_challenges": ["Emissions regulations and alternative fuels", "Durability of components at higher temperatures and pressures"],
+      "participation": [
+        { "event_year": 2026, "role": "event_partner", "verification": "partially_verified", "source": "techpoint", "evidence": "TechPoint's convention article lists Cummins among Indiana partners supporting the 2026 convention. A career-fair booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "caterpillar", "name": "Caterpillar", "industry": "Industrial",
+      "industries": ["Industrial", "Energy", "Advanced Manufacturing"],
+      "headquarters": "Irving, Texas", "website": "https://www.caterpillar.com", "domain": "caterpillar.com",
+      "description": "Manufacturer of construction and mining equipment, off-highway engines, industrial gas turbines (Solar Turbines) and diesel-electric locomotives.",
+      "size": "Large enterprise", "presence": "Global; major U.S. engineering sites in Illinois, Indiana (Lafayette engine plant), Texas and others",
+      "products": ["Construction & mining equipment", "Engines & power systems", "Solar Turbines industrial gas turbines"],
+      "tags": {
+        "heavy_equipment_rail": [3, "construction and mining machines"],
+        "automotive_powertrain": [2, "engines and power systems"],
+        "propulsion_turbomachinery": [2, "industrial gas turbines through Solar Turbines"],
+        "energy_power": [2, "power generation equipment"],
+        "manufacturing_engineering": [3, "large-scale machine and engine manufacturing"],
+        "additive_manufacturing": [2, "additive manufacturing for parts and tooling"],
+        "metals_processing": [2, "castings, welding and fabrication"],
+        "industrial_automation": [2, "autonomous mining and automation"],
+        "cad_design": [2, "mechanical design"],
+        "simulation_fea": [2, "structural analysis"],
+        "mechanical_testing": [1, "durability testing"]
+      },
+      "engineering_areas": ["Product development engineering", "Manufacturing engineering", "Solar Turbines", "Engineering co-ops"],
+      "technical_challenges": ["Electrification and alternative fuels for heavy equipment", "Weld and casting quality at scale"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Named in one search-index capture of SHPE's 2026-2027 IPC page; another capture did not show it. A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "boeing", "name": "Boeing", "industry": "Aerospace & Defense",
+      "industries": ["Aerospace & Defense", "Space", "Advanced Manufacturing"],
+      "headquarters": "Arlington, Virginia", "website": "https://www.boeing.com", "domain": "boeing.com",
+      "careers_url": "https://jobs.boeing.com",
+      "description": "Aerospace company that designs and manufactures commercial airplanes, defense and space systems, and provides global services.",
+      "size": "Large enterprise", "presence": "Global; major U.S. sites in Washington, South Carolina, Missouri, Texas, Alabama and others",
+      "products": ["Commercial airplanes (737, 767, 777, 787)", "Defense aircraft & systems", "Space systems"],
+      "tags": {
+        "aerospace_systems": [3, "commercial and military airframes and systems"],
+        "defense": [3, "defense aircraft and systems"],
+        "space": [2, "space and launch systems"],
+        "manufacturing_engineering": [3, "airplane production systems"],
+        "additive_manufacturing": [2, "additively manufactured aircraft and space parts"],
+        "am_qualification_standards": [2, "qualification of AM flight hardware"],
+        "mechanical_testing": [2, "structures and materials testing"],
+        "ndt_metrology": [2, "non-destructive inspection of structures"],
+        "cad_design": [2, "mechanical design (CATIA-based)"],
+        "simulation_fea": [2, "structural analysis"],
+        "materials_characterization": [1, "materials & process engineering"]
+      },
+      "engineering_areas": ["Structures", "Materials & processes", "Manufacturing engineering", "Systems engineering"],
+      "technical_challenges": ["Production quality and rate stability", "Qualification of new materials and processes"],
+      "eligibility_notes": "Large share of defense work; many roles require U.S. person status or security clearance. Commercial roles vary.",
+      "participation": [
+        { "event_year": 2026, "role": "historical", "verification": "unverified", "source": "boeing-shpe", "evidence": "Boeing keeps a SHPE National Convention page, but its dates (career fair Nov 3–4) match an earlier year. 2026 participation was not confirmed." }
+      ]
+    },
+    {
+      "slug": "amazon", "name": "Amazon", "industry": "Technology",
+      "industries": ["Technology", "Industrial", "Space"],
+      "headquarters": "Seattle, Washington", "website": "https://www.aboutamazon.com", "domain": "amazon.com",
+      "careers_url": "https://www.amazon.jobs",
+      "description": "Technology and retail company whose engineering work spans AWS cloud infrastructure, fulfillment robotics and automation, consumer devices, and a satellite broadband constellation program.",
+      "size": "Very large enterprise", "presence": "Global",
+      "products": ["AWS", "Amazon Robotics", "Devices", "Satellite broadband"],
+      "tags": {
+        "software_data": [3, "AWS and software engineering"],
+        "industrial_automation": [3, "fulfillment-center robotics and automation"],
+        "consumer_hardware": [2, "consumer devices and data-center hardware"],
+        "space": [2, "satellite broadband constellation hardware"],
+        "process_optimization": [2, "operations engineering at fulfillment scale"],
+        "manufacturing_engineering": [1, "hardware manufacturing engineering"]
+      },
+      "engineering_areas": ["Robotics & automation", "Hardware / devices", "AWS infrastructure", "Operations engineering"],
+      "participation": [
+        { "event_year": 2026, "role": "sponsor", "tier": "Gold", "verification": "verified", "source": "cvent", "evidence": "Listed as a Gold sponsor on the official 2026 SHPE National Convention registration site." }
+      ]
+    },
+    {
+      "slug": "apple", "name": "Apple", "industry": "Technology",
+      "industries": ["Technology", "Advanced Manufacturing", "Materials"],
+      "headquarters": "Cupertino, California", "website": "https://www.apple.com", "domain": "apple.com",
+      "careers_url": "https://jobs.apple.com",
+      "description": "Consumer-electronics and software company. Hardware engineering includes product design, materials engineering (custom alloys, glass) and manufacturing design/process engineering with global suppliers.",
+      "size": "Very large enterprise", "presence": "Global",
+      "products": ["iPhone, Mac, iPad, Watch", "Custom silicon", "Software & services"],
+      "tags": {
+        "consumer_hardware": [3, "consumer-device hardware engineering"],
+        "manufacturing_engineering": [2, "manufacturing design and process engineering"],
+        "materials_characterization": [2, "materials engineering for enclosures and components"],
+        "metals_processing": [1, "custom aluminum and titanium alloys and finishing"],
+        "cad_design": [2, "product mechanical design"],
+        "mechanical_testing": [1, "reliability and drop testing"],
+        "simulation_fea": [1, "structural simulation"],
+        "software_data": [2, "software engineering"]
+      },
+      "engineering_areas": ["Product design", "Manufacturing design engineering", "Materials engineering", "Hardware engineering internships"],
+      "participation": [
+        { "event_year": 2026, "role": "sponsor", "tier": "Gold", "verification": "verified", "source": "cvent", "evidence": "Listed as a Gold sponsor on the official 2026 SHPE National Convention registration site." }
+      ]
+    },
+    {
+      "slug": "microsoft", "name": "Microsoft", "industry": "Technology",
+      "industries": ["Technology"],
+      "headquarters": "Redmond, Washington", "website": "https://www.microsoft.com", "domain": "microsoft.com",
+      "careers_url": "https://careers.microsoft.com",
+      "description": "Software and cloud company; hardware engineering includes Surface and Xbox devices and Azure data-center hardware, cooling and infrastructure.",
+      "size": "Very large enterprise", "presence": "Global",
+      "products": ["Azure", "Microsoft 365", "Surface & Xbox", "Data-center hardware"],
+      "tags": {
+        "software_data": [3, "software and cloud engineering"],
+        "consumer_hardware": [2, "devices and data-center hardware"],
+        "hvac_thermal": [1, "data-center cooling"],
+        "construction_infrastructure": [1, "data-center build-out"]
+      },
+      "engineering_areas": ["Software engineering", "Hardware engineering", "Data-center engineering"],
+      "participation": [
+        { "event_year": 2026, "role": "exhibitor", "booth_number": "831", "activities": ["Meet the HOLA Hispanic/Latinx inclusion network", "No real-time interviews at the booth (per Microsoft)"], "verification": "verified", "source": "msft-conf", "evidence": "Microsoft's US Conferences page lists SHPE, Oct 28–31, 2026, Indianapolis, booth #831." },
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed among SHPE 2026-2027 IPC members (search-index capture)." }
+      ]
+    },
+    {
+      "slug": "kla", "name": "KLA", "industry": "Semiconductors",
+      "industries": ["Semiconductors", "Advanced Manufacturing"],
+      "headquarters": "Milpitas, California", "website": "https://www.kla.com", "domain": "kla.com",
+      "description": "Semiconductor equipment company specializing in process control and yield management: optical and e-beam inspection, metrology and data analytics.",
+      "size": "Large enterprise", "presence": "Global; U.S. sites in California, Michigan and others",
+      "products": ["Wafer inspection systems", "Metrology systems", "Yield-management software"],
+      "tags": {
+        "semiconductor_equipment": [3, "process-control and inspection equipment"],
+        "ndt_metrology": [3, "inspection and metrology systems"],
+        "materials_characterization": [2, "defect and materials analysis"],
+        "semiconductor_manufacturing": [2, "fab process control"],
+        "cad_design": [1, "mechanical design of precision tools"],
+        "simulation_fea": [1, "precision mechanical and thermal analysis"],
+        "software_data": [2, "analytics and algorithms"]
+      },
+      "engineering_areas": ["Mechanical engineering (precision systems)", "Applications engineering", "Software & algorithms"],
+      "participation": [
+        { "event_year": 2026, "role": "exhibitor", "verification": "verified", "source": "kla-event", "evidence": "KLA's events page lists the SHPE National Conference, Wednesday Oct 28 – Saturday Oct 31, 2026, at the Indiana Convention Center." }
+      ]
+    },
+    {
+      "slug": "qnity", "name": "Qnity Electronics", "industry": "Semiconductors",
+      "industries": ["Semiconductors", "Materials"],
+      "headquarters": "Wilmington, Delaware", "website": "https://www.qnityelectronics.com", "domain": "qnityelectronics.com",
+      "careers_url": "https://careers.qnityelectronics.com",
+      "description": "Electronics-materials company separated from DuPont, supplying materials and solutions for semiconductor fabrication, advanced packaging and interconnect.",
+      "size": "Large enterprise", "presence": "Global",
+      "products": ["Semiconductor process materials", "Advanced packaging materials", "Interconnect solutions"],
+      "tags": {
+        "materials_characterization": [3, "materials development and analytical characterization"],
+        "semiconductor_manufacturing": [2, "materials for chip fabrication and packaging"],
+        "process_optimization": [2, "process engineering for materials production"],
+        "research_development": [2, "materials R&D"],
+        "manufacturing_engineering": [1, "materials manufacturing"]
+      },
+      "engineering_areas": ["Materials R&D", "Process engineering", "Manufacturing"],
+      "participation": [
+        { "event_year": 2026, "role": "exhibitor", "verification": "verified", "source": "qnity-event", "evidence": "Qnity's careers site has an event page for the 2026 SHPE National Convention." }
+      ]
+    },
+    {
+      "slug": "merck", "name": "Merck", "industry": "Pharmaceuticals",
+      "industries": ["Pharmaceuticals", "Advanced Manufacturing"],
+      "headquarters": "Rahway, New Jersey", "website": "https://www.merck.com", "domain": "merck.com",
+      "careers_url": "https://jobs.merck.com",
+      "description": "Pharmaceutical company (known as MSD outside the U.S. and Canada); engineering roles focus on manufacturing, process and facilities engineering for drug and vaccine production.",
+      "size": "Large enterprise", "presence": "Global",
+      "products": ["Pharmaceuticals", "Vaccines", "Animal health"],
+      "tags": {
+        "pharma_consumer_manufacturing": [3, "pharmaceutical and vaccine manufacturing"],
+        "process_optimization": [2, "process engineering and validation"],
+        "manufacturing_engineering": [2, "manufacturing and facilities engineering"]
+      },
+      "engineering_areas": ["Manufacturing engineering", "Process engineering", "Engineering development programs"],
+      "participation": [
+        { "event_year": 2026, "role": "exhibitor", "verification": "verified", "source": "merck-event", "evidence": "Merck's careers site has an event page for the 2026 SHPE National Convention." },
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed among SHPE 2026-2027 IPC members (search-index capture)." }
+      ]
+    },
+    {
+      "slug": "mortenson", "name": "Mortenson", "industry": "Construction",
+      "industries": ["Construction", "Energy"],
+      "headquarters": "Minneapolis, Minnesota", "website": "https://www.mortenson.com", "domain": "mortenson.com",
+      "description": "Builder, developer and engineering services firm working on commercial, data-center, sports and renewable-energy (wind and solar) projects.",
+      "size": "Large private company", "presence": "United States",
+      "products": ["Building construction", "Data centers", "Wind & solar construction"],
+      "tags": {
+        "construction_infrastructure": [3, "construction and engineering services"],
+        "energy_power": [2, "wind and solar construction"],
+        "technical_leadership": [1, "project engineering and management"]
+      },
+      "engineering_areas": ["Field / project engineering", "Virtual design & construction", "Renewable energy"],
+      "participation": [
+        { "event_year": 2026, "role": "exhibitor", "booth_number": "1121", "verification": "verified", "source": "mortenson", "evidence": "Mortenson's SHPE page lists Booth #1121 at the Indiana Convention Center for the convention." },
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed among SHPE 2026-2027 IPC members (search-index capture)." }
+      ]
+    },
+    {
+      "slug": "granite-construction", "name": "Granite Construction", "industry": "Construction",
+      "industries": ["Construction"],
+      "headquarters": "Watsonville, California", "website": "https://www.graniteconstruction.com", "domain": "graniteconstruction.com",
+      "description": "Infrastructure contractor and construction-materials producer focused on transportation, water and site development projects.",
+      "size": "Large enterprise", "presence": "United States",
+      "products": ["Heavy civil construction", "Construction materials"],
+      "tags": {
+        "construction_infrastructure": [3, "heavy civil infrastructure"],
+        "process_optimization": [1, "materials production operations"]
+      },
+      "engineering_areas": ["Project engineering", "Estimating"],
+      "participation": [
+        { "event_year": 2026, "role": "exhibitor", "verification": "partially_verified", "source": "granite", "evidence": "Granite has a 'SHPE National Convention & Career Fair' event page. The event year was not visible in the indexed snippet." }
+      ]
+    },
+    {
+      "slug": "wells-fargo", "name": "Wells Fargo", "industry": "Financial Services",
+      "industries": ["Financial Services", "Technology"],
+      "headquarters": "San Francisco, California", "website": "https://www.wellsfargo.com", "domain": "wellsfargo.com",
+      "description": "Diversified financial-services company; engineering roles are mainly software, data and technology.",
+      "size": "Very large enterprise", "presence": "United States",
+      "products": ["Banking", "Technology"],
+      "tags": { "finance_tech": [3, "financial technology"], "software_data": [3, "software and data engineering"] },
+      "engineering_areas": ["Technology early careers"],
+      "participation": [
+        { "event_year": 2026, "role": "sponsor", "tier": "Gold", "verification": "verified", "source": "cvent", "evidence": "Listed as a Gold sponsor on the official 2026 SHPE National Convention registration site." },
+        { "event_year": 2026, "role": "event_partner", "activities": ["Early-careers recruiting session", "Applicants asked to tag SHPE as organizational affiliation"], "verification": "verified", "source": "wf-event", "evidence": "Wells Fargo's talent portal has a '2026 SHPE Natl Conv' page." },
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed among SHPE 2026-2027 IPC members (search-index capture)." }
+      ]
+    },
+    {
+      "slug": "bank-of-america", "name": "Bank of America", "industry": "Financial Services",
+      "industries": ["Financial Services", "Technology"],
+      "headquarters": "Charlotte, North Carolina", "website": "https://www.bankofamerica.com", "domain": "bankofamerica.com",
+      "description": "Financial-services company; engineering roles are mainly software, data and technology.",
+      "size": "Very large enterprise", "presence": "Global",
+      "products": ["Banking", "Technology"],
+      "tags": { "finance_tech": [3, "financial technology"], "software_data": [3, "software and data engineering"] },
+      "engineering_areas": ["Global Technology analyst programs"],
+      "participation": [
+        { "event_year": 2026, "role": "sponsor", "tier": "Gold", "verification": "verified", "source": "cvent", "evidence": "Listed as a Gold sponsor on the official 2026 SHPE National Convention registration site." }
+      ]
+    },
+    {
+      "slug": "purdue-university", "name": "Purdue University", "industry": "Academia & Research",
+      "industries": ["Academia & Research", "Aerospace & Defense", "Additive Manufacturing"],
+      "headquarters": "West Lafayette, Indiana", "website": "https://www.purdue.edu", "domain": "purdue.edu",
+      "careers_url": "https://www.purdue.edu/gradschool/",
+      "description": "Public research university with large aerospace and mechanical engineering schools and propulsion research at Maurice J. Zucrow Laboratories. Relevant for graduate-school and research-assistantship conversations.",
+      "size": "University", "presence": "Indiana",
+      "products": ["Graduate programs", "Research assistantships"],
+      "tags": {
+        "research_development": [3, "graduate research programs"],
+        "propulsion_turbomachinery": [2, "propulsion research at Zucrow Laboratories"],
+        "additive_manufacturing": [2, "additive manufacturing research"],
+        "materials_characterization": [2, "materials engineering research"],
+        "space": [2, "aerospace and astronautics programs"],
+        "mechanical_testing": [1, "materials testing labs"]
+      },
+      "engineering_areas": ["School of Aeronautics & Astronautics", "School of Mechanical Engineering", "School of Materials Engineering"],
+      "eligibility_notes": "Graduate admissions and assistantships are generally open to international students; confirm funding terms with each program.",
+      "participation": [
+        { "event_year": 2026, "role": "academic_partner", "verification": "partially_verified", "source": "techpoint", "evidence": "TechPoint's convention article lists Purdue University among Indiana partners. Graduate School Expo participation is not confirmed." }
+      ]
+    },
+    {
+      "slug": "intel", "name": "Intel", "industry": "Semiconductors",
+      "industries": ["Semiconductors", "Advanced Manufacturing", "Technology"],
+      "headquarters": "Santa Clara, California", "website": "https://www.intel.com", "domain": "intel.com",
+      "description": "Semiconductor company that designs and manufactures processors; operates fabs in Oregon, Arizona, New Mexico and Ireland, among others.",
+      "size": "Very large enterprise", "presence": "Global",
+      "products": ["Processors", "Foundry services"],
+      "tags": {
+        "semiconductor_manufacturing": [3, "wafer fabrication and process engineering"],
+        "process_optimization": [3, "yield and statistical process control"],
+        "materials_characterization": [2, "failure analysis and materials characterization (SEM/TEM)"],
+        "manufacturing_engineering": [2, "fab equipment and manufacturing engineering"],
+        "semiconductor_equipment": [1, "equipment engineering"],
+        "software_data": [2, "software engineering"]
+      },
+      "engineering_areas": ["Process engineering", "Equipment engineering", "Failure analysis"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed among SHPE 2026-2027 IPC members (search-index capture). A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "lam-research", "name": "Lam Research", "industry": "Semiconductors",
+      "industries": ["Semiconductors", "Advanced Manufacturing"],
+      "headquarters": "Fremont, California", "website": "https://www.lamresearch.com", "domain": "lamresearch.com",
+      "careers_url": "https://careers.lamresearch.com",
+      "description": "Semiconductor equipment company that supplies wafer-fabrication equipment, especially etch and deposition systems.",
+      "size": "Large enterprise", "presence": "Global; U.S. sites in California, Oregon and others",
+      "products": ["Etch systems", "Deposition systems", "Clean systems"],
+      "tags": {
+        "semiconductor_equipment": [3, "etch and deposition equipment"],
+        "manufacturing_engineering": [2, "equipment manufacturing"],
+        "materials_characterization": [2, "process and materials engineering"],
+        "cad_design": [2, "mechanical design of process chambers"],
+        "simulation_fea": [2, "thermal and fluid analysis of chambers"],
+        "process_optimization": [2, "process development"]
+      },
+      "engineering_areas": ["Mechanical engineering", "Process engineering", "Manufacturing engineering"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed as 'Lam' among SHPE 2026-2027 IPC members (search-index capture). A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "micron", "name": "Micron Technology", "industry": "Semiconductors",
+      "industries": ["Semiconductors", "Advanced Manufacturing"],
+      "headquarters": "Boise, Idaho", "website": "https://www.micron.com", "domain": "micron.com",
+      "description": "Memory and storage semiconductor company (DRAM, NAND) with fabs in Idaho, Virginia and Asia and new U.S. fab construction underway.",
+      "size": "Large enterprise", "presence": "Global",
+      "products": ["DRAM", "NAND", "High-bandwidth memory"],
+      "tags": {
+        "semiconductor_manufacturing": [3, "memory fabs"],
+        "process_optimization": [2, "yield engineering"],
+        "materials_characterization": [2, "materials and failure analysis"],
+        "manufacturing_engineering": [2, "fab manufacturing engineering"]
+      },
+      "engineering_areas": ["Process engineering", "Equipment engineering", "Facilities"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed among SHPE 2026-2027 IPC members (search-index capture). A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "texas-instruments", "name": "Texas Instruments", "industry": "Semiconductors",
+      "industries": ["Semiconductors", "Advanced Manufacturing"],
+      "headquarters": "Dallas, Texas", "website": "https://www.ti.com", "domain": "ti.com",
+      "careers_url": "https://careers.ti.com",
+      "description": "Analog and embedded-processing semiconductor company that manufactures in its own 300-mm fabs in Texas and Utah.",
+      "size": "Large enterprise", "presence": "Global; manufacturing in Texas and Utah",
+      "products": ["Analog chips", "Embedded processors"],
+      "tags": {
+        "semiconductor_manufacturing": [3, "300-mm wafer fabs"],
+        "manufacturing_engineering": [2, "fab and assembly/test manufacturing"],
+        "process_optimization": [2, "process and yield engineering"],
+        "industrial_automation": [1, "fab automation"]
+      },
+      "engineering_areas": ["Process engineering", "Equipment engineering", "Product engineering"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed among SHPE 2026-2027 IPC members (search-index capture). A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "medtronic", "name": "Medtronic", "industry": "Medical Devices",
+      "industries": ["Medical Devices", "Advanced Manufacturing"],
+      "headquarters": "Dublin, Ireland (operational HQ Minneapolis, MN)", "website": "https://www.medtronic.com", "domain": "medtronic.com",
+      "description": "Medical-device company; products include cardiac, neuromodulation, diabetes and spinal devices, among them 3D-printed titanium spinal implants.",
+      "size": "Very large enterprise", "presence": "Global",
+      "products": ["Cardiac devices", "Spinal implants", "Surgical systems"],
+      "tags": {
+        "medical_devices": [3, "medical-device design and manufacturing"],
+        "manufacturing_engineering": [2, "regulated device manufacturing"],
+        "additive_manufacturing": [1, "3D-printed titanium implants"],
+        "mechanical_testing": [1, "device verification testing"],
+        "cad_design": [2, "mechanical design"]
+      },
+      "engineering_areas": ["R&D engineering", "Manufacturing / process engineering", "Quality engineering"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed among SHPE 2026-2027 IPC members (search-index capture). A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "abbott", "name": "Abbott", "industry": "Medical Devices",
+      "industries": ["Medical Devices", "Pharmaceuticals"],
+      "headquarters": "Abbott Park, Illinois", "website": "https://www.abbott.com", "domain": "abbott.com",
+      "description": "Health-care company covering medical devices, diagnostics, nutrition and established pharmaceuticals.",
+      "size": "Very large enterprise", "presence": "Global",
+      "products": ["Medical devices", "Diagnostics", "Nutrition"],
+      "tags": {
+        "medical_devices": [3, "device engineering"],
+        "manufacturing_engineering": [2, "regulated manufacturing"],
+        "process_optimization": [2, "process engineering"],
+        "pharma_consumer_manufacturing": [2, "nutrition and pharma manufacturing"]
+      },
+      "engineering_areas": ["Engineering professional development program", "Manufacturing engineering"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Appears in a search-index capture of SHPE's 2026-2027 IPC page. A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "3m", "name": "3M", "industry": "Materials",
+      "industries": ["Materials", "Advanced Manufacturing", "Industrial"],
+      "headquarters": "Saint Paul, Minnesota", "website": "https://www.3m.com", "domain": "3m.com",
+      "description": "Materials-science company producing industrial, safety, transportation and consumer products from shared technology platforms.",
+      "size": "Very large enterprise", "presence": "Global",
+      "products": ["Abrasives", "Adhesives", "Films", "Safety products"],
+      "tags": {
+        "materials_characterization": [2, "materials science platforms"],
+        "manufacturing_engineering": [3, "process and manufacturing engineering"],
+        "process_optimization": [2, "process scale-up"],
+        "research_development": [3, "corporate R&D"]
+      },
+      "engineering_areas": ["Process engineering", "Manufacturing engineering", "R&D"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Appears in a search-index capture of SHPE's 2026-2027 IPC page. A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "ford", "name": "Ford Motor Company", "industry": "Automotive",
+      "industries": ["Automotive", "Advanced Manufacturing"],
+      "headquarters": "Dearborn, Michigan", "website": "https://www.ford.com", "domain": "ford.com",
+      "description": "Automaker that designs and manufactures cars, trucks and electric vehicles; runs vehicle, powertrain and manufacturing engineering.",
+      "size": "Very large enterprise", "presence": "Global",
+      "products": ["Trucks & SUVs", "Electric vehicles", "Commercial vehicles"],
+      "tags": {
+        "automotive_powertrain": [3, "vehicle and powertrain engineering"],
+        "manufacturing_engineering": [3, "vehicle assembly and stamping"],
+        "process_optimization": [2, "manufacturing quality"],
+        "metals_processing": [2, "stamping and aluminum body structures"],
+        "additive_manufacturing": [1, "prototyping and tooling"],
+        "cad_design": [2, "vehicle design"],
+        "simulation_fea": [2, "crash and structural simulation"]
+      },
+      "engineering_areas": ["Product development", "Manufacturing engineering", "Ford College Graduate program"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Appears in a search-index capture of SHPE's 2026-2027 IPC page. A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "general-motors", "name": "General Motors", "industry": "Automotive",
+      "industries": ["Automotive", "Additive Manufacturing", "Advanced Manufacturing"],
+      "headquarters": "Detroit, Michigan", "website": "https://www.gm.com", "domain": "gm.com",
+      "description": "Automaker producing vehicles and EVs. Runs an Additive Industrialization Center in Warren, Michigan.",
+      "size": "Very large enterprise", "presence": "Global",
+      "products": ["Vehicles", "EV platforms", "Batteries"],
+      "tags": {
+        "automotive_powertrain": [3, "vehicle and propulsion engineering"],
+        "manufacturing_engineering": [3, "vehicle manufacturing"],
+        "additive_manufacturing": [2, "Additive Industrialization Center (Warren, MI)"],
+        "process_optimization": [2, "manufacturing quality"],
+        "metals_processing": [1, "casting and stamping"],
+        "cad_design": [2, "vehicle design"],
+        "simulation_fea": [2, "simulation"]
+      },
+      "engineering_areas": ["Product engineering", "Manufacturing engineering", "Additive Industrialization"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Appears in a search-index capture of SHPE's 2026-2027 IPC page. A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "wabtec", "name": "Wabtec", "industry": "Industrial",
+      "industries": ["Industrial", "Advanced Manufacturing"],
+      "headquarters": "Pittsburgh, Pennsylvania", "website": "https://www.wabteccorp.com", "domain": "wabteccorp.com",
+      "description": "Rail-technology company producing freight locomotives, transit equipment, components and digital rail solutions.",
+      "size": "Large enterprise", "presence": "Global; U.S. sites in Pennsylvania, Texas and others",
+      "products": ["Locomotives", "Transit components", "Rail digital solutions"],
+      "tags": {
+        "heavy_equipment_rail": [3, "locomotives and rail systems"],
+        "manufacturing_engineering": [2, "locomotive and component manufacturing"],
+        "additive_manufacturing": [1, "additive manufacturing for rail components"],
+        "automotive_powertrain": [1, "locomotive diesel engines"],
+        "metals_processing": [1, "fabrication and machining"],
+        "mechanical_testing": [1, "component validation"]
+      },
+      "engineering_areas": ["Mechanical engineering", "Manufacturing engineering", "Engineering leadership program"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed among SHPE 2026-2027 IPC members (search-index capture). A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "trane-technologies", "name": "Trane Technologies", "industry": "Industrial",
+      "industries": ["Industrial", "Energy"],
+      "headquarters": "Swords, Ireland (U.S. operations in Davidson, NC)", "website": "https://www.tranetechnologies.com", "domain": "tranetechnologies.com",
+      "description": "Climate-control company making HVAC and transport-refrigeration systems (Trane, Thermo King).",
+      "size": "Large enterprise", "presence": "Global",
+      "products": ["Commercial & residential HVAC", "Transport refrigeration"],
+      "tags": {
+        "hvac_thermal": [3, "heating, cooling and refrigeration systems"],
+        "manufacturing_engineering": [2, "HVAC manufacturing"],
+        "energy_power": [1, "energy-efficiency systems"],
+        "cad_design": [2, "mechanical design"],
+        "simulation_fea": [1, "thermal analysis"]
+      },
+      "engineering_areas": ["Product engineering", "Manufacturing engineering"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed among SHPE 2026-2027 IPC members (search-index capture). A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "rockwell-automation", "name": "Rockwell Automation", "industry": "Industrial",
+      "industries": ["Industrial", "Technology"],
+      "headquarters": "Milwaukee, Wisconsin", "website": "https://www.rockwellautomation.com", "domain": "rockwellautomation.com",
+      "description": "Industrial-automation and digital-transformation company (controls, drives, software). Listed as 'Rockwell' on SHPE's IPC page; identity assumed to be Rockwell Automation.",
+      "size": "Large enterprise", "presence": "Global",
+      "products": ["PLCs & controls", "Drives", "Industrial software"],
+      "tags": {
+        "industrial_automation": [3, "industrial controls and automation"],
+        "manufacturing_engineering": [2, "smart manufacturing"],
+        "software_data": [2, "industrial software"],
+        "process_optimization": [2, "manufacturing productivity"]
+      },
+      "engineering_areas": ["Application engineering", "Hardware/software engineering"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "'Rockwell' is listed among SHPE 2026-2027 IPC members (search-index capture). A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "procter-gamble", "name": "Procter & Gamble", "industry": "Consumer Goods",
+      "industries": ["Consumer Goods", "Advanced Manufacturing"],
+      "headquarters": "Cincinnati, Ohio", "website": "https://us.pg.com", "domain": "pg.com",
+      "careers_url": "https://www.pgcareers.com",
+      "description": "Consumer-goods company with large manufacturing, process and product-supply engineering functions.",
+      "size": "Very large enterprise", "presence": "Global",
+      "products": ["Consumer products"],
+      "tags": {
+        "pharma_consumer_manufacturing": [3, "consumer-goods manufacturing"],
+        "manufacturing_engineering": [3, "product supply engineering"],
+        "process_optimization": [3, "process reliability and optimization"],
+        "industrial_automation": [2, "high-speed automated lines"],
+        "cad_design": [1, "equipment design"]
+      },
+      "engineering_areas": ["Product supply engineering", "R&D"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed as 'P&G' among SHPE 2026-2027 IPC members (search-index capture). A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "pepsico", "name": "PepsiCo", "industry": "Consumer Goods",
+      "industries": ["Consumer Goods", "Advanced Manufacturing"],
+      "headquarters": "Purchase, New York", "website": "https://www.pepsico.com", "domain": "pepsico.com",
+      "careers_url": "https://www.pepsicojobs.com",
+      "description": "Food and beverage company with large manufacturing, packaging and supply-chain engineering operations.",
+      "size": "Very large enterprise", "presence": "Global",
+      "products": ["Beverages", "Convenient foods"],
+      "tags": {
+        "pharma_consumer_manufacturing": [3, "food and beverage manufacturing"],
+        "manufacturing_engineering": [2, "plant engineering"],
+        "industrial_automation": [2, "automated production lines"],
+        "process_optimization": [2, "operations improvement"]
+      },
+      "engineering_areas": ["Manufacturing engineering", "R&D / packaging"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed among SHPE 2026-2027 IPC members (search-index capture). A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "southern-company", "name": "Southern Company", "industry": "Energy",
+      "industries": ["Energy"],
+      "headquarters": "Atlanta, Georgia", "website": "https://www.southerncompany.com", "domain": "southerncompany.com",
+      "description": "Electric and gas utility holding company; operates generation including the Plant Vogtle nuclear units 3 and 4.",
+      "size": "Large enterprise", "presence": "Southeastern United States",
+      "products": ["Electric generation & distribution", "Natural gas distribution", "Nuclear generation"],
+      "tags": {
+        "energy_power": [3, "power generation, including nuclear"],
+        "ndt_metrology": [1, "plant inspection programs"],
+        "construction_infrastructure": [1, "generation and grid projects"]
+      },
+      "engineering_areas": ["Generation engineering", "Nuclear engineering", "Transmission & distribution"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed among SHPE 2026-2027 IPC members (search-index capture). A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "jacobs", "name": "Jacobs", "industry": "Construction",
+      "industries": ["Construction", "Energy", "Semiconductors"],
+      "headquarters": "Dallas, Texas", "website": "https://www.jacobs.com", "domain": "jacobs.com",
+      "description": "Engineering, design and consulting firm for infrastructure, water, and advanced-manufacturing facilities such as semiconductor and life-sciences plants.",
+      "size": "Large enterprise", "presence": "Global",
+      "products": ["Infrastructure engineering", "Advanced-facility design", "Consulting"],
+      "tags": {
+        "construction_infrastructure": [3, "infrastructure and facility engineering"],
+        "semiconductor_manufacturing": [1, "semiconductor-fab facility design"],
+        "pharma_consumer_manufacturing": [1, "life-sciences facility design"],
+        "energy_power": [1, "energy infrastructure"]
+      },
+      "engineering_areas": ["Design engineering", "Project engineering"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed among SHPE 2026-2027 IPC members (search-index capture). A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "bechtel", "name": "Bechtel", "industry": "Construction",
+      "industries": ["Construction", "Energy", "Aerospace & Defense"],
+      "headquarters": "Reston, Virginia", "website": "https://www.bechtel.com", "domain": "bechtel.com",
+      "description": "Engineering, procurement and construction company for energy (nuclear, LNG), infrastructure, mining and national-security projects.",
+      "size": "Large private company", "presence": "Global",
+      "products": ["EPC for energy & infrastructure", "Nuclear & national-security projects"],
+      "tags": {
+        "construction_infrastructure": [3, "EPC megaprojects"],
+        "energy_power": [3, "nuclear and LNG projects"],
+        "defense": [2, "national-security sites"]
+      },
+      "engineering_areas": ["Field engineering", "Mechanical/piping engineering", "Nuclear"],
+      "eligibility_notes": "National-security projects typically require U.S. citizenship and clearance.",
+      "participation": [
+        { "event_year": 2026, "role": "historical", "verification": "unverified", "source": "bechtel-shpe", "evidence": "Bechtel's SHPE events page refers to the 2025 convention and describes Bechtel as an IPC member. 2026 participation was not confirmed." }
+      ]
+    },
+    {
+      "slug": "accenture", "name": "Accenture", "industry": "Technology",
+      "industries": ["Technology"],
+      "headquarters": "Dublin, Ireland", "website": "https://www.accenture.com", "domain": "accenture.com",
+      "description": "Professional-services company; its Industry X practice works on digital engineering and manufacturing.",
+      "size": "Very large enterprise", "presence": "Global",
+      "products": ["Consulting", "Technology services", "Industry X"],
+      "tags": {
+        "software_data": [2, "technology consulting"],
+        "manufacturing_engineering": [1, "Industry X digital manufacturing"],
+        "technical_leadership": [1, "client-facing technical roles"]
+      },
+      "engineering_areas": ["Technology analyst", "Industry X"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Appears in a search-index capture of SHPE's 2026-2027 IPC page. A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "lenovo", "name": "Lenovo", "industry": "Technology",
+      "industries": ["Technology"],
+      "headquarters": "Beijing, China and Morrisville, North Carolina", "website": "https://www.lenovo.com", "domain": "lenovo.com",
+      "description": "PC, server and device maker with U.S. engineering operations in North Carolina.",
+      "size": "Very large enterprise", "presence": "Global",
+      "products": ["PCs", "Servers", "Mobile devices"],
+      "tags": {
+        "consumer_hardware": [3, "PC and server hardware"],
+        "hvac_thermal": [1, "thermal design"],
+        "software_data": [2, "software engineering"],
+        "manufacturing_engineering": [1, "hardware manufacturing"]
+      },
+      "engineering_areas": ["Hardware engineering", "Mechanical/thermal design"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed among SHPE 2026-2027 IPC members (search-index capture). A 2026 booth is not confirmed." }
+      ]
+    },
+    {
+      "slug": "morgan-stanley", "name": "Morgan Stanley", "industry": "Financial Services",
+      "industries": ["Financial Services"],
+      "headquarters": "New York, New York", "website": "https://www.morganstanley.com", "domain": "morganstanley.com",
+      "description": "Investment bank and wealth manager; technology roles in software and data.",
+      "size": "Very large enterprise", "presence": "Global",
+      "products": ["Investment banking", "Wealth management"],
+      "tags": { "finance_tech": [3, "financial technology"], "software_data": [2, "software"] },
+      "engineering_areas": ["Technology analyst program"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed among SHPE 2026-2027 IPC members (search-index capture)." }
+      ]
+    },
+    {
+      "slug": "goldman-sachs", "name": "Goldman Sachs", "industry": "Financial Services",
+      "industries": ["Financial Services"],
+      "headquarters": "New York, New York", "website": "https://www.goldmansachs.com", "domain": "goldmansachs.com",
+      "description": "Investment bank; engineering roles in software and quantitative technology.",
+      "size": "Very large enterprise", "presence": "Global",
+      "products": ["Investment banking", "Asset management"],
+      "tags": { "finance_tech": [3, "financial technology"], "software_data": [2, "software engineering"] },
+      "engineering_areas": ["Engineering analyst program"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Appears in a search-index capture of SHPE's 2026-2027 IPC page." }
+      ]
+    },
+    {
+      "slug": "navy-federal", "name": "Navy Federal Credit Union", "industry": "Financial Services",
+      "industries": ["Financial Services"],
+      "headquarters": "Vienna, Virginia", "website": "https://www.navyfederal.org", "domain": "navyfederal.org",
+      "description": "Credit union serving the military community; technology roles in software and data.",
+      "size": "Large enterprise", "presence": "United States",
+      "products": ["Banking"],
+      "tags": { "finance_tech": [3, "financial technology"], "software_data": [2, "software"] },
+      "engineering_areas": ["Technology"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed among SHPE 2026-2027 IPC members (search-index capture)." }
+      ]
+    },
+    {
+      "slug": "usaa", "name": "USAA", "industry": "Financial Services",
+      "industries": ["Financial Services"],
+      "headquarters": "San Antonio, Texas", "website": "https://www.usaa.com", "domain": "usaa.com",
+      "description": "Financial-services company serving the military community; technology roles in software and data.",
+      "size": "Large enterprise", "presence": "United States",
+      "products": ["Insurance", "Banking"],
+      "tags": { "finance_tech": [3, "financial technology"], "software_data": [2, "software"] },
+      "engineering_areas": ["Technology"],
+      "participation": [
+        { "event_year": 2026, "role": "ipc_partner", "verification": "partially_verified", "source": "shpe-ipc", "evidence": "Listed among SHPE 2026-2027 IPC members (search-index capture)." }
+      ]
+    }
+  ],
+  "recruiters": [],
+  "jobs": [
+    {
+      "company": "ge-aerospace",
+      "title": "Manufacturing Engineering Intern – US – Summer 2027",
+      "requisition_id": "R5029659",
+      "location": "Evendale, Ohio (other postings of this role list Lynn MA, Lafayette IN and Muskegon MI)",
+      "employment_type": "internship",
+      "description": "Summer 2027 internship building a technical foundation in manufacturing and assembly processes.",
+      "qualifications": ["Degree in Manufacturing, Materials Science/Engineering, Mechanical or Welding Engineering", "Minimum 3.0 cumulative GPA"],
+      "skills": ["manufacturing engineering", "assembly", "materials", "mechanical", "welding"],
+      "posted_at": "2026-10-09",
+      "apply_url": "https://careers.geaerospace.com/global/en/job/R5029659/Manufacturing-Engineering-Intern-US-Summer-2027",
+      "listing_status": "unknown",
+      "verification": "partially_verified",
+      "source": "ge-r5029659",
+      "eligibility": { "sponsorship": "unknown", "note": "Work-authorization wording was not visible in the indexed text. Open the posting and check before applying.", "evidence": "No eligibility statement captured." }
+    },
+    {
+      "company": "honeywell-aerospace",
+      "title": "Mechanical Engineering Intern – Summer 2027 (U.S. Person Required)",
+      "requisition_id": null,
+      "location": "Multiple U.S. locations",
+      "employment_type": "internship",
+      "description": "Summer 2027 mechanical-engineering internship in Honeywell Aerospace. Third-party listings estimate the application window runs to about the end of March 2027.",
+      "qualifications": ["Pursuing a degree in mechanical engineering or related field", "U.S. Person status (export control)"],
+      "skills": ["mechanical design", "cad", "testing", "aerospace"],
+      "apply_url": "https://prosple.com/graduate-employers/honeywell-aerospace/jobs-internships/mechanical-engineering-intern-summer-2027",
+      "listing_status": "unknown",
+      "verification": "partially_verified",
+      "source": "hon-me-intern",
+      "eligibility": {
+        "citizenship_required": null,
+        "us_person_required": true,
+        "sponsorship": "not_offered",
+        "note": "Copies of this posting disagree: some say 'U.S. citizen only', others 'U.S. Person Required' (U.S. citizen, permanent resident, asylee or refugee). One copy states Honeywell cannot consider applicants needing current or future sponsorship. Confirm on careers.honeywell.com.",
+        "evidence": "Prosple and other aggregator listings, captured 2026-10-30."
+      }
+    },
+    {
+      "company": "honeywell-aerospace",
+      "title": "Systems Engineering Intern – Summer 2027 (U.S. Person Required)",
+      "requisition_id": null,
+      "location": "Multiple U.S. locations",
+      "employment_type": "internship",
+      "description": "Summer 2027 systems-engineering internship in Honeywell Aerospace.",
+      "qualifications": ["Pursuing an engineering degree", "U.S. Person status: U.S. citizen, permanent resident, asylee or refugee (export control)"],
+      "skills": ["systems engineering", "aerospace", "requirements"],
+      "apply_url": "https://prosple.com/graduate-employers/honeywell-aerospace/jobs-internships/systems-engineering-intern-summer-2027-us-person-required",
+      "listing_status": "unknown",
+      "verification": "partially_verified",
+      "source": "hon-se-intern",
+      "eligibility": {
+        "us_person_required": true,
+        "sponsorship": "unknown",
+        "note": "Defines U.S. Person as U.S. citizen, permanent resident, or person with asylum or refugee status, citing export-control law.",
+        "evidence": "Prosple listing, captured 2026-10-30."
+      }
+    }
+  ]
+}
