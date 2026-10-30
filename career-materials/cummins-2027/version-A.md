@@ -3,7 +3,7 @@
 
 El Paso, TX  |  prbeltran@miners.utep.edu  |  linkedin.com/in/patriciorodbel1
 
-_Mechanical engineering student (CSWP) with industry design-and-prototype experience and NASA-funded mechanical testing research. Brings CAD, test planning, failure analysis and cross-functional team leadership to product development, validation and performance work._
+_Mechanical engineering student (CSWP) with industry design-and-prototype experience and NASA-partnered mechanical testing research. Brings CAD, test planning, failure analysis and cross-functional team leadership to product development, validation and performance work._
 
 ## Education
 **The University of Texas at El Paso**, El Paso, TX  
@@ -16,7 +16,7 @@ _B.S. Aerospace and Mechanical Engineering; Minor in Materials Science and Engin
 **Vinton Steel, LLC**, El Paso, TX
 _Mechanical Engineering Intern | Weigh-Dumping System for Ferroalloys Prior to Tapping_, May 2026 – Aug 2026
 
-- Designed and prototyped a weigh-dumping system that meters ferroalloy additions before tapping, targeting re-additions caused by out-of-spec chemistry; projected to cut ferroalloy costs by $250,000
+- Designed in SOLIDWORKS and prototyped a weigh-dumping system that meters ferroalloy additions before tapping, targeting re-additions caused by out-of-spec chemistry; projected to cut ferroalloy costs by $250,000
 
 **UTEP W.M. Keck Center for 3D Innovation**, El Paso, TX
 _Undergraduate Research Assistant | GRX-810 ODS Superalloy Development (with NASA Glenn and Marshall)_, Jan 2026 – Present
@@ -24,7 +24,8 @@ _Undergraduate Research Assistant | GRX-810 ODS Superalloy Development (with NAS
 - Characterize 50+ laser powder bed fusion (LPBF) GRX-810 superalloy components for extreme-environment aerospace hardware through mechanical testing, SEM and materials analysis
 - Execute a tensile test matrix of HIP-treated specimens across 5 build angles (45°–90°) and 5 EOS LPBF machines to quantify how build orientation and machine affect strength and variability
 - Measured 10.3% lower mean UTS at 90° vs. 45° (793.8 vs. 884.6 MPa) on one machine, with the same trend on all 3 machines tested so far; flagged yield-strength scatter at 75°–90°
-- Identify failure modes with SEM fractography (dimpled, ductile fracture at 45°) and relate them to columnar grain structure mapped by EBSD and optical metallography
+- Operate SEM and EBSD to identify failure modes (dimpled, ductile fracture at 45°) and relate them to columnar grain structure; analyze test and characterization data in Python
+- Perform instrumented nanoindentation to measure nanoscale deformation and creep response of LPBF GRX-810
 - AM for Defense Readiness: develop a five-level advanced manufacturing curriculum for 200+ U.S. Army personnel at Fort Bliss
 
 **ASCENT Lab (Advanced Student Collaborative Engineering for Novel Technology)**, El Paso, TX
@@ -35,13 +36,13 @@ _Founder and Chief Executive Officer_, Sep 2026 – Present
 
 ## Technical Projects
 
-**Turbine Blade Disk: Additively Manufactured Inconel 718 Blisk**
+**Additively Manufactured Inconel 718 Blisk (sponsored by NCDMM)**
 
-- Designed an AM Inconel 718 blisk through DFM/DFA review, ISO/ASTM-aligned process validation, NDE and metrology
+- Owned the blisk end to end: design, DFM/DFA review, ISO/ASTM-aligned process validation, NDE and metrology
 
-**Future Vertical Lift (FVL): AM Standards Gap Analysis**
+**Future Vertical Lift (FVL): AM Standards Gap Analysis Lead**
 
-- Partnered with Bessel, Bell Flight and AFRL to close gaps in ISO/ASTM/NASA AM standards for DoD adoption of end-use AM parts
+- Led the ISO/ASTM/NASA AM standards gap analysis with Bessel, Bell Flight and AFRL for DoD adoption of end-use AM parts
 
 ## Conference Presentations
 **Presenter, 2026 Solid Freeform Fabrication Symposium (4 papers)  |  Lead author, GRX-810 poster, SHPE 2026**
@@ -57,6 +58,6 @@ _Founder and Chief Executive Officer_, Sep 2026 – Present
 ## Technical Skills
 
 - **CAD & Analysis:** SOLIDWORKS (CSWP), Siemens NX, Fusion 360, ANSYS, Altair HyperWorks
-- **Testing & Characterization:** Tensile testing, SEM fractography, EDS, EBSD, metallography, XCT, NDT
+- **Testing & Characterization:** SEM/fractography, EBSD, instrumented nanoindentation, tensile testing, EDS, metallography, XCT, NDT
 - **Manufacturing:** Additive manufacturing (LPBF), CNC machining, wire EDM; DFM/DFA
 - **Programming & Data:** Python, MATLAB, Minitab, SQL, JavaScript, React

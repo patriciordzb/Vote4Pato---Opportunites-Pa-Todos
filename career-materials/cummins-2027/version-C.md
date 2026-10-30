@@ -16,13 +16,13 @@ _B.S. Aerospace and Mechanical Engineering; Minor in Materials Science and Engin
 **Vinton Steel, LLC**, El Paso, TX
 _Mechanical Engineering Intern | Weigh-Dumping System for Ferroalloys Prior to Tapping_, May 2026 – Aug 2026
 
-- Designed and prototyped a weigh-dumping system to control ferroalloy additions before tapping, so heats reach target chemistry without costly re-additions; projected to cut ferroalloy costs by $250,000
+- Designed in SOLIDWORKS and prototyped a weigh-dumping system to control ferroalloy additions before tapping, so heats reach target chemistry without costly re-additions; projected to cut ferroalloy costs by $250,000
 
 **UTEP W.M. Keck Center for 3D Innovation**, El Paso, TX
 _Undergraduate Research Assistant | GRX-810 ODS Superalloy Development (with NASA Glenn and Marshall)_, Jan 2026 – Present
 
 - Evaluate 50+ laser powder bed fusion (LPBF) GRX-810 superalloy components for NASA through mechanical testing, SEM and materials analysis to support process qualification
-- Compare parts from 5 EOS LPBF machines at 5 build angles after HIP post-processing to quantify machine-to-machine and orientation-driven variation in tensile properties
+- Compare parts from 5 EOS LPBF machines at 5 build angles after HIP, analyzing tensile data in Python and running SEM/EBSD to quantify machine-to-machine and orientation-driven variation
 - Measured 10.3% lower mean UTS at 90° vs. 45° (793.8 vs. 884.6 MPa) on one machine, with the same trend on all 3 machines tested so far, and yield-strength scatter between machines at 75°–90°
 - AM for Defense Readiness: develop a five-level advanced manufacturing curriculum for 200+ U.S. Army personnel at Fort Bliss
 
@@ -33,13 +33,13 @@ _Founder and Chief Executive Officer_, Sep 2026 – Present
 
 ## Technical Projects
 
-**Additively Manufactured Inconel 718 Blisk**
+**Additively Manufactured Inconel 718 Blisk (sponsored by NCDMM)**
 
-- Took an AM Inconel 718 blisk from design through DFM/DFA review, ISO/ASTM process validation, NDE and metrology
+- Owned the blisk end to end: design, DFM/DFA review, ISO/ASTM-aligned process validation, NDE and metrology
 
-**Future Vertical Lift (FVL): AM Standards**
+**Future Vertical Lift (FVL): AM Standards Gap Analysis Lead**
 
-- Partnered with Bessel, Bell Flight and AFRL to close gaps in ISO/ASTM/NASA AM standards for DoD adoption of end-use AM parts
+- Led the ISO/ASTM/NASA AM standards gap analysis with Bessel, Bell Flight and AFRL for DoD adoption of end-use AM parts
 
 ## Conference Presentations
 **Presenter, 2026 Solid Freeform Fabrication Symposium (4 papers)  |  Lead author, GRX-810 poster, SHPE 2026**
@@ -55,6 +55,6 @@ _Founder and Chief Executive Officer_, Sep 2026 – Present
 ## Technical Skills
 
 - **Manufacturing Processes:** Additive manufacturing (LPBF), CNC machining, wire EDM; DFM/DFA, process validation
-- **Quality & Metrology:** NDT/NDE, XCT, metrology, SEM, EDS, EBSD, metallography, tensile testing
-- **Data & Statistics:** Minitab, Python, MATLAB, SQL
+- **Quality & Metrology:** NDT/NDE, XCT, metrology, SEM, EBSD, EDS, metallography, tensile testing, nanoindentation
+- **Data & Statistics:** Python (test data analysis), Minitab, MATLAB, SQL
 - **CAD & Analysis:** SOLIDWORKS (CSWP), Siemens NX, Fusion 360, ANSYS, Altair HyperWorks

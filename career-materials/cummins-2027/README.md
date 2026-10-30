@@ -52,7 +52,7 @@ No current posting surfaced for a dedicated "R&D," "Research & Technology" or "A
 ## 2. Resume gap analysis
 
 ### Strongest competitive advantages
-1. **NASA-partnered metal AM research with real numbers.** GRX-810 tensile testing across 5 EOS LPBF machines × 5 build angles after HIP, with a measured 10.3% UTS drop at 90° vs 45°. This is process-structure-property work and maps directly to Cummins' "material & process selection," "material characterization" and "durability at higher temperatures" challenges.
+1. **NASA-partnered metal AM research with real numbers, where you run the SEM, EBSD and nanoindentation and analyze the data in Python yourself.** GRX-810 tensile testing across 5 EOS LPBF machines × 5 build angles after HIP, with a measured 10.3% UTS drop at 90° vs 45°. This is process-structure-property work and maps directly to Cummins' "material & process selection," "material characterization" and "durability at higher temperatures" challenges.
 2. **Characterization toolkit that matches the Materials posting nearly word for word:** SEM, EBSD, EDS, optical metallography, fractography, XCT, NDT.
 3. **Industry internship with a cost outcome:** the Vinton Steel weigh-dumping system, projected at $250,000 in ferroalloy savings. It shows design + prototype + business impact in a heavy-industry plant.
 4. **Four SFF 2026 papers as presenter, plus the symposium scholarship.** This is unusual for an undergraduate and signals technical communication and research maturity.
@@ -79,9 +79,9 @@ material characterization · failure analysis/failure mode · fractography · no
 **iDFMEA/FMEA, GD&T, Creo, ANSYS Workbench (as a project), 7-step problem solving, Six Sigma/Lean, data acquisition/instrumentation, tribology/wear testing, XRD, binder jetting, fatigue/durability analysis.** If you have *any* real exposure to these (coursework, the blisk project, Vinton), tell me and I'll add it.
 
 ### Weak spots a recruiter will notice
-- **Breadth over depth at Vinton:** one bullet for a full summer internship. Add the CAD tool, how the prototype was tested, and whether it was installed (see questions below).
-- **Projects lack your role and result.** The blisk and FVL bullets don't say if they were course, team or sponsor projects, or what you personally delivered.
-- **Programming and statistics skills have no supporting bullet.** Python/MATLAB/Minitab appear only in Skills. If you ran the GRX-810 statistics in Minitab or Python, that's a high-value bullet.
+- **Breadth over depth at Vinton:** one bullet for a full summer internship. SOLIDWORKS is now named. Still missing: how the prototype was tested and whether it was installed (see questions below).
+- ~~Projects lack your role and result.~~ *Fixed Oct 30:* the blisk is now shown as an NCDMM-sponsored project you owned end to end, and FVL as a standards gap analysis you led.
+- ~~Programming skills have no supporting bullet.~~ *Fixed Oct 30:* Python data analysis now appears in the GRX-810 bullets. MATLAB and Minitab still appear only in Skills.
 - **Overall GPA 3.23.** It's above the stated 2.5 floor. Both GPAs are listed (major first) so nothing looks hidden.
 
 ---
@@ -121,7 +121,9 @@ See [`version-A.md`](version-A.md), [`version-B.md`](version-B.md), [`version-C.
 | Engineering major, U.S. full-time enrollment | All | ✔ | ✔ | ✔ |
 | Mechanical / physical testing | Materials, PSV | ✔ | ✔ | ✔ |
 | Material characterization (SEM, optical microscopy) | Materials | ✔ | ✔ | ◐ |
-| Component failure analysis | Materials, Product Eng. | ◐ fractography | ◐ fractography | ✖ |
+| Component failure analysis | Materials, Product Eng. | ◐ fractography (self-run SEM) | ◐ fractography (self-run SEM) | ✖ |
+| Data analysis / programming | All | ✔ Python | ✔ Python | ✔ Python |
+| CAD design | Product Eng. | ✔ SOLIDWORKS at Vinton, CSWP | ✔ | ✔ |
 | Material & process / manufacturing-route selection | Materials | ◐ | ✔ (AM vs traditional, LPBF/HIP) | ✔ |
 | Non-destructive evaluation | Materials | ◐ | ◐ | ✔ |
 | Joining & bonding | Materials | ◐ (paper) | ✔ (paper) | ✔ (paper) |
@@ -138,9 +140,9 @@ See [`version-A.md`](version-A.md), [`version-B.md`](version-B.md), [`version-C.
 | Collaboration / cross-functional | All | ✔ | ✔ | ✔ |
 
 ### Five strongest selling points per version
-- **A:** (1) design + prototype at Vinton with a $250K projected impact; (2) designed tensile test matrix with quantified result; (3) failure-mode identification by fractography; (4) CSWP; (5) leads 4 hardware teams (rocket engine, drones).
+- **A:** (1) SOLIDWORKS design + prototype at Vinton with a $250K projected impact; (2) designed tensile test matrix with quantified result; (3) failure-mode identification by fractography; (4) CSWP; (5) leads 4 hardware teams (rocket engine, drones).
 - **B:** (1) NASA GRX-810 ODS superalloy research; (2) full characterization stack (OM, EBSD, SEM fractography, EDS, XCT); (3) measured orientation effect on UTS with HIP conditions; (4) 4 SFF papers covering creep, joining and process comparison; (5) industrial metallurgy exposure at a steel mill.
-- **C:** (1) $250K projected cost reduction in a production plant; (2) machine-to-machine variability study across 5 LPBF systems; (3) DFM/DFA → process validation → NDE → metrology on the blisk; (4) AM standards work with Bell, AFRL and Bessel; (5) trains 200+ Army personnel through a 5-level manufacturing curriculum.
+- **C:** (1) $250K projected cost reduction in a production plant; (2) machine-to-machine variability study across 5 LPBF systems, analyzed in Python; (3) NCDMM-sponsored blisk you owned end to end: DFM/DFA → process validation → NDE → metrology; (4) AM standards work with Bell, AFRL and Bessel; (5) trains 200+ Army personnel through a 5-level manufacturing curriculum.
 
 ### Remaining qualification gaps
 FMEA/iDFMEA, GD&T, Creo, Six Sigma/Lean, DAQ/instrumentation, fatigue/durability analysis, tribology/wear testing, a demonstrated FEA project, and powertrain/engine-specific experience. None is unusual for an intern applicant, but FMEA and GD&T appear across several Cummins postings.
@@ -165,14 +167,19 @@ FMEA/iDFMEA, GD&T, Creo, Six Sigma/Lean, DAQ/instrumentation, fatigue/durability
 
 ## 7. Questions that would strengthen the resumes
 
-I didn't assume answers to any of these. Each "yes" or detail can become a stronger bullet.
+**Answered Oct 30 and applied to all three versions:**
+- You used SOLIDWORKS (applied to the Vinton bullet).
+- You personally ran the SEM, EBSD and nanoindentation, and you analyzed the data in Python.
+- You led the FVL standards gap analysis.
+- You did all of the blisk work, and it was sponsored by NCDMM. The resumes credit NCDMM to the blisk. If NCDMM sponsored FVL instead, or both, move the credit.
+
+**Still open.** I didn't assume answers to these:
 
 1. **Work authorization:** Are you on an F-1 visa, and will you be CPT-eligible for summer 2027? Your profile lists you as a non-U.S. citizen with sponsorship status unknown.
-2. **Vinton Steel:** Which CAD tool did you use? Did the prototype include load cells, PLC or controls? Was it tested or installed? Is the $250,000 an **annual** projection, and who produced the estimate?
-3. **GRX-810 role:** Did you personally run the tensile tests, sample prep (sectioning, polishing, etching), SEM/EBSD and fractography? Did you operate the EOS machines, or receive the builds? Did you analyze data in Python, MATLAB or Minitab (e.g., machine × angle statistics)?
-4. **Nanoindentation paper:** Did you perform the nanoindentation testing yourself? If yes, it belongs in Skills.
-5. **Blisk:** Was it a course, team or sponsored project? What CAD/FEA did you use? Was it printed and inspected? What were the NDE/metrology results?
-6. **FVL:** What was your specific deliverable (gap matrix, report, test plan)?
-7. **SFF papers:** Which are you first author on? Are they in the published proceedings?
-8. **Coursework:** Which relevant courses have you completed (Mechanics of Materials, Machine Design, Heat Transfer, Materials Selection, Manufacturing Processes)? Versions A and C have room for a coursework line.
-9. **Any exposure to FMEA, GD&T, Creo, Lean/Six Sigma or DAQ**, even in a class?
+2. **Vinton Steel:** Did the prototype include load cells, PLC or controls? Was it tested or installed? Is the $250,000 an **annual** projection, and who produced the estimate?
+3. **GRX-810:** Did you run the tensile tests and sample prep (sectioning, polishing, etching) yourself, or did NASA or lab staff? Did you operate the EOS machines? The resumes currently say you "run"/"execute" the tensile testing, based on the original resume's "mechanical testing."
+4. **Blisk:** What CAD/FEA did you use? Was it printed? What did NDE and metrology find?
+5. **FVL:** What did the gap analysis produce (number of standards reviewed, gaps found, a report or roadmap)?
+6. **SFF papers:** Which are you first author on? Are they in the published proceedings?
+7. **Coursework:** Which relevant courses have you completed (Mechanics of Materials, Machine Design, Heat Transfer, Materials Selection, Manufacturing Processes)? Versions A and C have room for a coursework line.
+8. **Any exposure to FMEA, GD&T, Creo, Lean/Six Sigma or DAQ**, even in a class?
