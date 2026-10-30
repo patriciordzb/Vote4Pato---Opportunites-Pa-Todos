@@ -1,7 +1,7 @@
 "use client";
 
 import { useFormAction } from "@/components/use-form-action";
-import Link from "next/link";
+import Link from "@/components/link";
 import { useEffect, useMemo, useRef, useState, useTransition } from "react";
 import { Trash2 } from "lucide-react";
 import { addInteraction, deleteInteraction, updateCompanyTracking, updateRecruiterContact } from "@/app/actions";

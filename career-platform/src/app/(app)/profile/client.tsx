@@ -10,7 +10,7 @@ import type { Preferences, ProfileData } from "@/lib/types";
 
 const KINDS = [["resume", "Resume"], ["linkedin_pdf", "LinkedIn profile PDF"], ["poster", "Research poster"], ["portfolio", "Portfolio"], ["publication", "Publication"], ["other", "Other"]];
 
-export function DocumentUpload() {
+export function DocumentUpload({ maxBytes }: { maxBytes: number }) {
   const [pending, setPending] = useState(false);
   const [msg, setMsg] = useState<{ ok: boolean; text: string } | null>(null);
   const ref = useRef<HTMLFormElement>(null);
@@ -21,11 +21,11 @@ export function DocumentUpload() {
       const fd = new FormData(e.currentTarget);
       const file = fd.get("file");
       if (!(file instanceof File) || !file.size) return setMsg({ ok: false, text: "Choose a PDF first" });
-      if (file.size > 10 * 1024 * 1024) return setMsg({ ok: false, text: "File is larger than 10 MB" });
+      if (file.size > maxBytes) return setMsg({ ok: false, text: `File is larger than ${maxBytes / 1024 / 1024} MB. Compress the PDF and try again.` });
       setPending(true); setMsg(null);
       try {
         const res = await fetch("/api/documents", { method: "POST", body: fd });
-        const j = await res.json();
+        const j = await res.json().catch(() => ({ error: res.status === 413 ? "File is too large for the server" : `Upload failed (${res.status})` }));
         if (!res.ok) throw new Error(j.error ?? "Upload failed");
         setMsg({ ok: true, text: `Uploaded and analyzed (${j.analysis.method === "ai" ? "AI" : "rule-based"}). Review suggestions below.` });
         ref.current?.reset();

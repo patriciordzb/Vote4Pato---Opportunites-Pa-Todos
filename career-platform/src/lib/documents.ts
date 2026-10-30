@@ -3,7 +3,8 @@ import { detectDomains, DOMAIN_BY_KEY } from "./taxonomy";
 import { aiConfigured, complete, parseJsonReply } from "./ai";
 import type { ProfileData } from "./types";
 
-export const MAX_UPLOAD_BYTES = 10 * 1024 * 1024;
+// Vercel rejects function request bodies over ~4.5 MB before they reach the app.
+export const MAX_UPLOAD_BYTES = (process.env.VERCEL ? 4 : 10) * 1024 * 1024;
 export const DOCUMENT_KINDS = ["resume", "linkedin_pdf", "poster", "portfolio", "publication", "other"] as const;
 
 export function isPdf(bytes: Uint8Array) {

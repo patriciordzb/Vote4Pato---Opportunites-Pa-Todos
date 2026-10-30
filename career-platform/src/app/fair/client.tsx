@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Link from "@/components/link";
 import { useMemo, useState, useTransition } from "react";
 import { ArrowLeft, Bell, BookmarkCheck, Check, ChevronDown, Copy, Footprints, Search, Send, Star, UserCheck } from "lucide-react";
 import { addInteraction, toggleTask, updateCompanyTracking } from "@/app/actions";

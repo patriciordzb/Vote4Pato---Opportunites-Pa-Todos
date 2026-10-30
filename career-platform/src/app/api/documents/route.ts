@@ -21,7 +21,7 @@ export async function POST(req: Request) {
   if (!(file instanceof File)) return NextResponse.json({ error: "No file uploaded" }, { status: 400 });
   if (!DOCUMENT_KINDS.includes(kind as (typeof DOCUMENT_KINDS)[number])) return NextResponse.json({ error: "Unknown document type" }, { status: 400 });
   if (file.size === 0) return NextResponse.json({ error: "File is empty" }, { status: 400 });
-  if (file.size > MAX_UPLOAD_BYTES) return NextResponse.json({ error: "File is larger than 10 MB" }, { status: 413 });
+  if (file.size > MAX_UPLOAD_BYTES) return NextResponse.json({ error: `File is larger than ${MAX_UPLOAD_BYTES / 1024 / 1024} MB` }, { status: 413 });
 
   const bytes = new Uint8Array(await file.arrayBuffer());
   if (!isPdf(bytes)) return NextResponse.json({ error: "Only PDF files are accepted (file content is not a PDF)" }, { status: 415 });

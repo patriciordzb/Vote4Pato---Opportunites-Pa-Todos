@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/link";
 import { Badge, Card, EligibilityBadge, ExtLink, PageHeader, VerificationBadge, Empty, scoreTone, fmtDate } from "@/components/ui";
 import { JobForm } from "@/components/forms";
 import { getWorkspace, listApplications } from "@/lib/repo";

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/link";
 import { Badge, Card, PageHeader, VerificationBadge, ComputedLabel, SetupNotice, EligibilityBadge } from "@/components/ui";
 import { getWorkspace, listApplications, listTasks } from "@/lib/repo";
 import { boothRoute, dailyPlan } from "@/lib/plan";

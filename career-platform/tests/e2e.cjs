@@ -50,9 +50,13 @@ const ok = (m) => console.log(`✓ ${++step}. ${m}`);
   await page.fill('input[name="follow_up"]', "Send thank-you to GE Aerospace engineer");
   await page.click('button:has-text("Log interaction")');
   await page.waitForSelector("text=Interaction saved");
+  // The refreshed page (not just the action result) must render the new data.
+  await page.waitForSelector("text=Interaction history");
+  await page.waitForSelector('button:has-text("Log interaction"):not([disabled])', { state: "attached" });
   await page.fill('textarea[name="body"]', "Booth staff recommended applying to R5029659 before Nov 15");
   await page.click('button:has-text("Add note")');
   await page.waitForSelector("text=Note saved");
+  await page.waitForSelector("li >> text=Booth staff recommended applying");
   ok("tracking status, booth visit, interaction, follow-up task and note saved");
 
   // 5 · Recruiter rules: "confirmed" requires evidence

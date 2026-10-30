@@ -87,8 +87,11 @@ export function ActionButton({
 }
 
 export function Disclosure({ summary, children, defaultOpen = false }: { summary: ReactNode; children: ReactNode; defaultOpen?: boolean }) {
+  // Only the first render decides; later refreshes must not open or close a
+  // panel the user is interacting with.
+  const [initialOpen] = useState(defaultOpen);
   return (
-    <details className="group rounded-lg border border-line bg-raised/40 p-3" open={defaultOpen}>
+    <details className="group rounded-lg border border-line bg-raised/40 p-3" open={initialOpen}>
       <summary className="cursor-pointer list-none text-sm font-medium marker:hidden">
         <span className="mr-1 inline-block transition group-open:rotate-90">›</span>
         {summary}

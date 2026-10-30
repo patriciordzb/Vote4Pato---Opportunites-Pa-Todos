@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/link";
 import { Badge, Card, ExtLink, PageHeader, Empty, ComputedLabel } from "@/components/ui";
 import { CopyButton, Disclosure } from "@/components/client";
 import { RecruiterForm, RecruiterContactControls } from "@/components/forms";

@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Link from "@/components/link";
 import { useState, useTransition } from "react";
 import { Loader2, ScanSearch, Trash2 } from "lucide-react";
 import { deleteApplication, saveJobToTracker, setJobListingStatus, updateApplication } from "@/app/actions";

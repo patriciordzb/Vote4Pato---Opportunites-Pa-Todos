@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/link";
 import { notFound } from "next/navigation";
 import { Globe, Briefcase, Linkedin, Users, Mic, MessageSquareText, MapPin } from "lucide-react";
 import {

@@ -4,6 +4,7 @@ import { ActionButton } from "@/components/client";
 import { AiGenerate } from "@/components/forms";
 import { getLinkedIn, getWorkspace, listDocuments } from "@/lib/repo";
 import { linkedinConfig, LINKEDIN_SCOPES } from "@/lib/linkedin";
+import { MAX_UPLOAD_BYTES } from "@/lib/documents";
 import { domainLabel } from "@/lib/intel";
 import { disconnectLinkedIn, deleteMyData } from "@/app/actions";
 import { DocumentUpload, DocumentRow, PreferencesForm, ProfileEditor } from "./client";
@@ -59,8 +60,8 @@ export default async function ProfilePage({ searchParams }: { searchParams: Prom
           </div>
         </Card>
 
-        <Card title="Upload documents" subtitle="Resume, LinkedIn profile PDF, research posters, portfolio, publications. PDF only, max 10 MB." className="lg:col-span-2">
-          <DocumentUpload />
+        <Card title="Upload documents" subtitle={`Resume, LinkedIn profile PDF, research posters, portfolio, publications. PDF only, max ${MAX_UPLOAD_BYTES / 1024 / 1024} MB.`} className="lg:col-span-2">
+          <DocumentUpload maxBytes={MAX_UPLOAD_BYTES} />
           <ul className="mt-4 space-y-3">
             {docs.map((d) => <DocumentRow key={d.id} doc={{ ...d, created_at: String(d.created_at) }} />)}
             {!docs.length && <li className="text-sm text-muted">No documents yet. Your starting profile came from the resume and poster you shared. Upload them here to keep the originals with your profile.</li>}

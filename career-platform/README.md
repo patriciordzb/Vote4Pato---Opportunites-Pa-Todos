@@ -111,12 +111,26 @@ All Claude calls run server-side in `src/lib/ai.ts` (official `@anthropic-ai/sdk
 
 ## Deploying to Vercel
 
-1. Push the repo, then in Vercel import it and set the **Root Directory** to `career-platform`.
-2. Set the environment variables above. On Vercel, `DATABASE_URL` is **required**, because PGlite needs a persistent disk.
-3. Deploy. Migrations and the seed run on the first request (or run `npm run db:migrate` against the database first).
-4. Add the production callback URL in your LinkedIn app.
+Vercel functions have no persistent disk, so production needs a hosted PostgreSQL (`DATABASE_URL`). The embedded PGlite database is for local use only.
 
-Any Node 20+ host works (`npm run build && npm start`). With a persistent disk you can skip `DATABASE_URL` and keep PGlite.
+1. **Get the code onto the branch Vercel deploys.** Vercel's production branch is the repo's default branch (`main`). Either merge this branch into `main`, or after step 2 set *Project → Settings → Git → Production Branch* to this branch. The root `index.html` campaign site is unaffected either way.
+2. **Import the project:** <https://vercel.com/new> → pick the GitHub repo → **Root Directory: `career-platform`** (framework auto-detects as Next.js; leave build settings at their defaults). Don't deploy yet if it asks; add the variables first.
+3. **Add a database** (pick one):
+   - **Neon (easiest):** *Project → Storage → Create Database → Neon (Postgres)* → connect it to the project. This sets `DATABASE_URL` automatically.
+   - **Supabase:** copy *Project Settings → Database → Connection string → Transaction pooler* into `DATABASE_URL`. If the first page load fails with `self-signed certificate in certificate chain`, also set `DATABASE_SSL_REJECT_UNAUTHORIZED=false`.
+4. **Add environment variables** (*Project → Settings → Environment Variables*, scope **Production** and **Preview**):
+   - `APP_PASSWORD`: the password you'll type to sign in
+   - `SESSION_SECRET`: 32+ random characters
+   - `ENCRYPTION_KEY`: 32 random bytes, base64 (e.g. `openssl rand -base64 32`)
+   - `APP_URL`: your deployment URL, e.g. `https://your-project.vercel.app` (needed for LinkedIn)
+   - optional: `ANTHROPIC_API_KEY`, `LINKEDIN_CLIENT_ID`, `LINKEDIN_CLIENT_SECRET`
+5. **Deploy** (or *Deployments → ⋯ → Redeploy* so the new variables apply). Tables, the research snapshot and your profile are created automatically on the first request. Visit `/api/health`: it should return `{"ok":true,"db":"postgres"}`.
+6. **LinkedIn (optional):** add `https://your-project.vercel.app/api/linkedin/callback` to your LinkedIn app's authorized redirect URLs.
+
+Notes:
+- **Upload limit:** Vercel caps request bodies at ~4.5 MB, so on Vercel uploads are limited to 4 MB per PDF (10 MB elsewhere). Compress larger posters before uploading.
+- **Preview deployments:** Vercel protects non-production URLs with Vercel login by default. That's fine for you, but use the production URL on your phone.
+- Any Node 20+ host works (`npm run build && npm start`). With a persistent disk you can skip `DATABASE_URL` and keep PGlite.
 
 ## Security & privacy
 

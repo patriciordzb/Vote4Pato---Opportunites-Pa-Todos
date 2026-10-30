@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import Link from "@/components/link";
 import { useMemo, useState, useTransition } from "react";
 import { Bookmark, BookmarkCheck, Footprints, SlidersHorizontal } from "lucide-react";
 import { Badge, ConfidenceBadge, EligibilityBadge, ScoreRing, VerificationBadge, ROLE_LABEL, Empty } from "@/components/ui";

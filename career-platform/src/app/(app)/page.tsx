@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/link";
 import { CalendarDays, MapPin, ArrowRight, CheckCircle2, AlertTriangle, Footprints, Send, UserCog, ClipboardList } from "lucide-react";
 import { Card, PageHeader, Stat, ScoreRing, Badge, Bar, VerificationBadge, ConfidenceBadge, ComputedLabel, ROLE_LABEL } from "@/components/ui";
 import { CompanyLogo } from "@/components/client";

@@ -4,6 +4,8 @@ const nextConfig: NextConfig = {
   // PGlite ships a WASM Postgres build and pg uses optional native bindings;
   // both must be loaded by Node at runtime instead of being bundled.
   serverExternalPackages: ["@electric-sql/pglite", "pg"],
+  // Migrations are read from disk at runtime, so ship them with every function.
+  outputFileTracingIncludes: { "/**": ["./db/migrations/*.sql"] },
   experimental: {
     serverActions: { bodySizeLimit: "12mb" },
   },
